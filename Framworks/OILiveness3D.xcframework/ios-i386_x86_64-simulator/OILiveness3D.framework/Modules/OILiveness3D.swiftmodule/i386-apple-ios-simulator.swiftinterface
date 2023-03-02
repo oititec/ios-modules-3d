@@ -1,0 +1,232 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6.1 effective-4.2 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-module-flags: -target i386-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4.2 -enforce-exclusivity=checked -O -module-name OILiveness3D
+import AVFoundation
+import Foundation
+import OICommons
+import OIComponents
+@_exported import OILiveness3D
+import OINetwork
+import Swift
+import UIKit.UIButton
+import UIKit.UIColor
+import UIKit
+import UIKit.UIView
+import _Concurrency
+public protocol CustomInstructionView : UIKit.UIView {
+  var backButton: UIKit.UIButton! { get }
+  var continueButton: UIKit.UIButton! { get }
+}
+extension UIKit.UIColor {
+  public static let backgroundDark: UIKit.UIColor
+  public static let backgroundLight: UIKit.UIColor
+  public static let retryScreenHeaderTextColorLight: UIKit.UIColor
+  public static let retryScreenContentTextColorLight: UIKit.UIColor
+  public static let retryScreenHeaderTextColorDark: UIKit.UIColor
+  public static let resultScreenHeaderTextColorLight: UIKit.UIColor
+  public static let resultScreenHeaderTextColorDark: UIKit.UIColor
+}
+public struct Liveness3DUser {
+  public init(appKey: Swift.String, environment: OILiveness3D.Environment3D = .HML, defaultTheme: OILiveness3D.Liveness3DTheme? = nil, lowLightTheme: OILiveness3D.Liveness3DTheme? = nil, texts: [Swift.String : Swift.String]? = nil)
+}
+public enum Environment3D {
+  case HML
+  case PRD
+  public static func == (a: OILiveness3D.Environment3D, b: OILiveness3D.Environment3D) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum Liveness3DThemeType : Swift.Int {
+  case light, dark
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct Liveness3DTheme {
+  public init(_ type: OILiveness3D.Liveness3DThemeType)
+  public var guidanceCustomizationBackgroundColors: [UIKit.UIColor] {
+    get
+  }
+  public var guidanceCustomizationForegroundColor: UIKit.UIColor {
+    get
+  }
+  public var guidanceCustomizationHeaderFont: UIKit.UIFont?
+  public var guidanceCustomizationSubtextFont: UIKit.UIFont?
+  public var guidanceCustomizationReadyScreenHeaderFont: UIKit.UIFont?
+  public var guidanceCustomizationReadyScreenHeaderTextColor: UIKit.UIColor {
+    get
+  }
+  public var guidanceCustomizationReadyScreenHeaderAttributedString: Foundation.NSAttributedString?
+  public var guidanceCustomizationReadyScreenSubtextFont: UIKit.UIFont?
+  public var guidanceCustomizationReadyScreenSubtextTextColor: UIKit.UIColor {
+    get
+  }
+  public var guidanceCustomizationReadyScreenSubtextAttributedString: Swift.String?
+  public var guidanceCustomizationRetryScreenHeaderFont: UIKit.UIFont?
+  public var guidanceCustomizationRetryScreenHeaderTextColor: UIKit.UIColor {
+    get
+  }
+  public var guidanceCustomizationRetryScreenHeaderAttributedString: Swift.String
+  public var guidanceCustomizationRetryScreenSubtextFont: UIKit.UIFont?
+  public var guidanceCustomizationRetryScreenSubtextTextColor: UIKit.UIColor {
+    get
+  }
+  public var guidanceCustomizationRetryScreenSubtextAttributedString: Swift.String?
+  public var guidanceCustomizationButtonFont: UIKit.UIFont?
+  public var guidanceCustomizationButtonTextNormalColor: UIKit.UIColor {
+    get
+  }
+  public var guidanceCustomizationButtonBackgroundNormalColor: UIKit.UIColor
+  public var guidanceCustomizationButtonTextHighlightColor: UIKit.UIColor {
+    get
+  }
+  public var guidanceCustomizationButtonBackgroundHighlightColor: UIKit.UIColor {
+    get
+  }
+  public var guidanceCustomizationButtonTextDisabledColor: UIKit.UIColor {
+    get
+  }
+  public var guidanceCustomizationButtonBackgroundDisabledColor: UIKit.UIColor
+  public var guidanceCustomizationButtonBorderColor: UIKit.UIColor?
+  public var guidanceCustomizationButtonBorderWidth: Swift.Int32?
+  public var guidanceCustomizationButtonCornerRadius: Swift.Int32?
+  public var guidanceCustomizationReadyScreenOvarFillColor: UIKit.UIColor?
+  public var guidanceCustomizationReadyScreenTextBackgroundColor: UIKit.UIColor?
+  public var guidanceCustomizationReadyScreenTextBackgroundCornerRadius: Swift.Int32?
+  public var guidanceCustomizationRetryScreenImageBorderColor: UIKit.UIColor
+  public var guidanceCustomizationRetryScreenImageBorderWidth: Swift.Int32?
+  public var guidanceCustomizationRetryScreenImageCornerRadius: Swift.Int32?
+  public var guidanceCustomizationRetryScreenOvarStrokeColor: UIKit.UIColor?
+  public var resultScreenCustomizationAnimationRelativeScale: Swift.Float
+  public var resultScreenCustomizationForegroundColor: UIKit.UIColor {
+    get
+  }
+  public var resultScreenCustomizationBackgroundColors: [UIKit.UIColor] {
+    get
+  }
+  public var resultScreenCustomizationActivityIndicatorColor: UIKit.UIColor
+  public var resultScreenCustomizationCustomActivityIndicatorImage: UIKit.UIImage?
+  public var resultScreenCustomizationCustomActivityIndicatorRotationIntervar: Swift.Int32
+  public var resultScreenCustomizationCustomActivityIndicatorAnimation: Swift.Int
+  public var resultScreenCustomizationShowUploadProgressBar: Swift.Bool
+  public var resultScreenCustomizationUploadProgressFillColor: UIKit.UIColor
+  public var resultScreenCustomizationUploadProgressTrackColor: UIKit.UIColor
+  public var resultScreenCustomizationResultAnimationBackgroundColor: UIKit.UIColor
+  public var resultScreenCustomizationResultAnimationForegroundColor: UIKit.UIColor
+  public var resultScreenCustomizationResultAnimationSuccessBackgroundImage: UIKit.UIImage?
+  public var resultScreenCustomizationResultAnimationUnSuccessBackgroundImage: Swift.Int
+  public var resultScreenCustomizationCustomResultAnimationSuccess: Swift.Int
+  public var resultScreenCustomizationCustomResultAnimationUnSuccess: Swift.Int
+  public var resultScreenCustomizationCustomStaticResultAnimationSuccess: Swift.Int
+  public var resultScreenCustomizationCustomStaticResultAnimationUnSuccess: Swift.Int
+  public var resultScreenCustomizationMessageFont: UIKit.UIFont?
+  public var ovarCustomizationStrokeWidth: Swift.Int32?
+  public var ovarCustomizationStrokeColor: UIKit.UIColor
+  public var ovarCustomizationProgressStrokeWidth: Swift.Int32?
+  public var ovarCustomizationProgressColor1: UIKit.UIColor
+  public var ovarCustomizationProgressColor2: UIKit.UIColor
+  public var ovarCustomizationProgressRadialOffset: Swift.Int32?
+  public var frameCustomizationBorderWidth: Swift.Int32?
+  public var frameCustomizationCornerRadius: Swift.Int32
+  public var frameCustomizationBorderColor: UIKit.UIColor {
+    get
+  }
+  public var frameCustomizationBackgroundColor: UIKit.UIColor {
+    get
+  }
+  public var frameCustomizationElevation: Swift.Int32?
+  public var overlayCustomizationBackgroundColor: UIKit.UIColor {
+    get
+  }
+  public var overlayCustomizationBrandingImage: UIKit.UIImage?
+  public var overlayCustomizationShowBrandingImage: Swift.Bool
+  public var feedbackCustomizationCornerRadius: Swift.Int32?
+  public var feedbackCustomizationBackgroundColors: QuartzCore.CAGradientLayer {
+    get
+  }
+  public var feedbackCustomizationTextColor: UIKit.UIColor {
+    get
+  }
+  public var feedbackCustomizationTextFont: UIKit.UIFont?
+  public var feedbackCustomizationEnablePulsatingText: Swift.Bool
+  public var feedbackCustomizationElevation: Swift.Int?
+  public var cancelButtonCustomizationCustomImage: UIKit.UIImage? {
+    get
+  }
+  public var cancelButtonCustomizationLocation: OILiveness3D.Liveness3DTheme.CancelButtonLocation
+  public var resultAnimationStyle: OILiveness3D.ResultAnimationStyle
+  public var resultScreenOverrideSuccessMessage: Swift.String
+  public enum CancelButtonLocation : Swift.Int {
+    case topLeft, topRight, disabled
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+}
+public typealias CustomPermissionView = OICommons.CustomPermissionView
+@objc @_Concurrency.MainActor(unsafe) public class Liveness3DViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public init(endpoint: Swift.String, liveness3DUser: OILiveness3D.Liveness3DUser, delegate: OILiveness3D.Liveness3DDelegate, debugOn: Swift.Bool = false, customInstructionView: OILiveness3D.CustomInstructionView? = nil, customPermissionView: OILiveness3D.CustomPermissionView? = nil)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func loadView()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension OILiveness3D.Liveness3DViewController : OICommons.CheckPermissionDelegate {
+  @_Concurrency.MainActor(unsafe) public func canceledCheckPermission()
+  @_Concurrency.MainActor(unsafe) public func finishCheckPermissionAndContinueFlow()
+}
+public typealias Liveness3DSuccess = OINetwork.Liveness3DSuccess
+public protocol Liveness3DDelegate : AnyObject {
+  func handleLiveness3DValidation(validateModel: OILiveness3D.Liveness3DSuccess)
+  func handleLiveness3DError(error: OILiveness3D.Liveness3DError)
+}
+public struct Liveness3DError {
+  public let errorCode: OILiveness3D.Liveness3DErrorCode
+  public let errorMessage: Swift.String
+}
+public enum Liveness3DErrorCode : Swift.String {
+  case INVALID_APP_KEY
+  case NO_CAMERA_PERMISSION
+  case NO_INTERNET_CONNECTION
+  case LIVENESS_NOT_COMPLETED
+  case LIVENESS_NOT_INITIALIZED
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class Strings {
+  @objc deinit
+}
+public enum ResultAnimationStyle {
+  case blob
+  case spinner(OILiveness3D.SpinnerAnimationCustomization)
+  case custom(OILiveness3D.CustomResultAnimationDelegate)
+}
+public protocol CustomResultAnimationDelegate {
+  func createActivityIndicatorView() -> UIKit.UIView?
+  func createSuccessAnimationView() -> UIKit.UIView?
+  func createUnsuccessAnimationView() -> UIKit.UIView?
+}
+public struct SpinnerAnimationCustomization {
+  public init(spinnerColor: UIKit.UIColor, indicatorForegroundColor: UIKit.UIColor, indicatorBackgroundColor: UIKit.UIColor)
+}
+extension OILiveness3D.Environment3D : Swift.Equatable {}
+extension OILiveness3D.Environment3D : Swift.Hashable {}
+extension OILiveness3D.Liveness3DThemeType : Swift.Equatable {}
+extension OILiveness3D.Liveness3DThemeType : Swift.Hashable {}
+extension OILiveness3D.Liveness3DThemeType : Swift.RawRepresentable {}
+extension OILiveness3D.Liveness3DTheme.CancelButtonLocation : Swift.Equatable {}
+extension OILiveness3D.Liveness3DTheme.CancelButtonLocation : Swift.Hashable {}
+extension OILiveness3D.Liveness3DTheme.CancelButtonLocation : Swift.RawRepresentable {}
+extension OILiveness3D.Liveness3DErrorCode : Swift.Equatable {}
+extension OILiveness3D.Liveness3DErrorCode : Swift.Hashable {}
+extension OILiveness3D.Liveness3DErrorCode : Swift.RawRepresentable {}
