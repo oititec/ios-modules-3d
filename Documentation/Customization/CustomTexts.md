@@ -1,6 +1,6 @@
 # Guia de Customização: Textos
 Os textos do fluxo do Liveness3D podem ser alterados passando como argumento para o parâmetro de **texts** do ``Liveness3DUser`` 
-um dicionário que possui como chave o *enum* ``Liveness3DTextKey`` e um valor do tipo `String`.
+um dicionário que possui como chave o _enum_ ``Liveness3DTextKey`` e um valor do tipo `String`.
 
 ### Exemplo de utilização
 ```swift
@@ -66,7 +66,7 @@ let liveness3DUser = Liveness3DUser(
 <div>
     <img src="../Images/liveness3d_result_1.png" width="432" height="396" />
     <img src="../Images/liveness3d_result_2.png" width="432" height="396" />
-<div/>
+</div>
 
 ---
 <br/>
@@ -89,7 +89,6 @@ let liveness3DUser = Liveness3DUser(
 | (**1**)    | feedbackHoldSteady1                 | "Segure firme por: 1"                    |
 | (**1**)    | feedbackHoldSteady2                 | "Segure firme por: 2"                    |
 | (**1**)    | feedbackHoldSteady3                 | "Segure firme por: 3"                    |
-| (**1**)    | feedbackEyesStraightAhead           | "Olhe para frente"                       |
 | (**1**)    | feedbackRemoveDarkGlasses           | "Remova seus óculos escuros"             |
 | (**1**)    | feedbackNeutralExpression           | "Olhe para a câmera sem sorrir"          |
 | (**1**)    | feedbackConditionsTooBright         | "Evite um ambiente muito iluminado"      |

@@ -9,29 +9,31 @@ Para integrar as *views* customizadas ao fluxo de telas do SDK, as customizaçõ
 ```swift
 let viewController = Liveness3DViewController(
     liveness3DUser: liveness3DUser,
+    delegate: self,
     customInstructionView: CustomInstructionView(),
     customPermissionView: CustomCameraPermissionView()
 )
 ```
 
 ## Tela de Instruções
+_Parâmetro `customInstructionView`_
 
-Para customizar a tela de instrução é necessário a criação de uma `UIView` (via código ou via Interface Builder), que implemente o protocolo `Liveness3DCustomInstructionView` como demonstrado abaixo:
+Para customizar a tela de instrução é necessário a criação de uma `UIView` (_via código ou via Interface Builder_), que implemente o protocolo `Liveness3DCustomInstructionView` como demonstrado abaixo:
 
 ```swift
 public protocol Liveness3DCustomInstructionView: UIView {  
     var backButton: UIButton! { get }
     var continueButton: UIButton! { get }
     
-    func changeLoadingVisibility(to visibility: LoadingVisibility)
+    func changeLoadingVisibility(to visibility: Visibility)
 }
 ```
 
-| **Indice** | **Elemento**                   | **Descrição**                                                               |
-| :--------- | :----------------------------- | :-------------------------------------------------------------------------- |
-| (**1**)    | `backButton`                   | Botão de voltar no fluxo de navegação.                                      |
-| (**2**)    | `continueButton`               | Botão para iniciar o processo do Liveness 3D.                               |
-|            | `changeLoadingVisibility(to:)` | Método responsável por indicar o estado do *loading* na tela de instruções, podendo receber dois valores: **hidden** (esconder o loading) e **displayed** (mostrar o loading). |
+| **Indice** | **Elemento** | **Descrição** |
+| :--------- | :----------- | :------------ |
+| (**1**) | `backButton`     | Botão de voltar no fluxo de navegação. |
+| (**2**) | `continueButton` | Botão para iniciar o processo do Liveness 3D. |
+|         | `changeLoadingVisibility(to:)` | Método responsável por indicar o estado do *loading* na tela de instruções, podendo receber dois valores:<br/>- **hidden** (_esconder o loading_)<br/>- **displayed** (_mostrar o loading_) |
 
 <br/>
 <img src="../Images/instructions.png" width="432" height="396" />
@@ -39,11 +41,12 @@ public protocol Liveness3DCustomInstructionView: UIView {
 ***
 
 ## Tela de Permissão de Câmera
+_Parâmetro `customPermissionView`_
 
-Para customizar a tela de permissão de câmera é necessário a criação de uma `UIView` (via código ou via Interface Builder), que implemente o protocolo `Liveness3DCustomCameraPermissionView` como demonstrado abaixo:
+Para customizar a tela de permissão de câmera é necessário a criação de uma `UIView` (_via código ou via Interface Builder_), que implemente o protocolo `CustomCameraPermissionView` como demonstrado abaixo:
 
 ```swift
-public protocol Liveness3DCustomCameraPermissionView: UIView {
+public protocol CustomCameraPermissionView: UIView {
     var backButton: UIButton! { get }
     var checkPermissionButton: UIButton! { get }
     var openSettingsButton: UIButton! { get }
@@ -53,19 +56,19 @@ public protocol Liveness3DCustomCameraPermissionView: UIView {
 }
 ```
 
-| **Indice** | **Elemento**                   | **Descrição**                                                                                            |
-| :--------- | :----------------------------- | :------------------------------------------------------------------------------------------------------- |
-| (**1**)    | `backButton`                   | Botão para função voltar da navegação.                                                                   |
-| (**2**)    | `checkPermissionButton`        | Botão responsável por verificar a permissão de câmera e solicitá-la se necessário.                       |
-| (**3**)    | `openSettingsButton`           | Botão que redireciona o usuário para o menu de permissões do aplicativo na configurações do dispositivo. |
-| (**4**)    | `closeButton`                  | Botão que fechar o fluxo de validação da permissão de câmera e volta para tela anterior.                 |
-|            | `showBottomSheet(visibility:)` | Método responsável por indicar o momento de mostrar os botões de `openSettingsButton` e `closeButton`, podendo receber dois valores: **hidden** (esconder o loading) e **displayed** (mostrar o loading). |
+| **Indice** | **Elemento** | **Descrição** |
+| :--------- | :----------- | :------------ |
+| (**1**) | `backButton`            | Botão para função voltar da navegação. |
+| (**2**) | `checkPermissionButton` | Botão responsável por verificar a permissão de câmera e solicitá-la se necessário. |
+| (**3**) | `openSettingsButton`    | Botão que redireciona o usuário para o menu de permissões do aplicativo na configurações do dispositivo. |
+| (**4**) | `closeButton`           | Botão que fechar o fluxo de validação da permissão de câmera e volta para tela anterior.                 |
+|         | `showBottomSheet(visibility:)` | Método responsável por indicar o momento de mostrar os botões de `openSettingsButton` e `closeButton`, podendo receber dois valores: **hidden** (esconder o loading) e **displayed** (mostrar o loading). |
 
 <br/>
 <div>
     <img src="../Images/camera_permission_1.png" width="432" height="396" />
     <img src="../Images/camera_permission_2.png" width="432" height="396" />
-<div/>
+</div>
 
 > **Notas**: 
 > 1. Além das subviews especificadas, as views customizadas pode conter outros elementos, apenas tomando cuidado para que os mesmos não interfiram nas subviews funcionais;<br/>
