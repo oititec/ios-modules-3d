@@ -8,40 +8,33 @@
 ```swift
 public struct Liveness3DUser { 
     let appKey: String
-    let environment: Liveness3DEnvironment
+    let environment: Environment
     let defaultTheme: Liveness3DTheme?
     let lowLightTheme: Liveness3DTheme?
     let texts: [Liveness3DTextKey : String]?
 }
 
-public enum Liveness3DEnvironment { 
+public enum Environment { 
     case HML 
     case PRD 
 }
 ```
 
-Detalhes de como customizar o Liveness3DTheme são encontrados [neste link](Liveness3DTheme.md) e a customização dos textos [neste link](CustomTexts.md).
+Detalhes de como customizar o Liveness3DTheme são encontrados [neste link](../Customization/Liveness3DTheme.md) e a customização dos textos [neste link](../Customization/CustomTexts.md).
 
-**PASSO 2.**  Crie uma instância para a classe `Liveness3DViewController`, com o parâmetro de *liveness3DUser*.
+**PASSO 2.**  Crie uma instância para a classe `Liveness3DViewController`, com os parâmetros de _liveness3DUser_ e _delegate_.
 
 ```swift
 let liveness3DViewController = Liveness3DViewController(
     liveness3DUser: Liveness3DUser(
         appKey: appKey,
         environment: .HML
-    )
+    ),
+    delegate: self
 )
 ```
 
-**PASSO 3.** Definir o `Delegate`:
-
-```swift
-liveness3DViewController.delegate = self
-```
-
-> Nota: o objeto `liveness3DViewController` é o mesmo criado no passo 2.
-
-**PASSO 4.** Implementar o `Liveness3DDelegate` na sua View Controller.
+**PASSO 3.** Implementar o `Liveness3DDelegate` na sua View Controller.
  Os métodos são:
  - **handleLiveness3DValidation(validateModel:)**: método chamado no delegate após efetuada a validação da prova de vida;
  - **handleLiveness3DError(error:)**: método chamado no delegate caso o SDK do Liveness3D encontre algum erro de comunicação com o backend ou na validação da prova de vida;
@@ -53,7 +46,7 @@ public protocol Liveness3DDelegate: AnyObject {
 }
 ``` 
 
-**PASSO 5.** Apresentar a View Controller do Liveness3D como modal.
+**PASSO 4.** Apresentar a View Controller do Liveness3D como modal.
 
 ```swift
 liveness3DViewController.modalPresentationStyle = .fullScreen 
@@ -72,16 +65,16 @@ class ViewController: UIViewController {
         // Passo 01
         let liveness3DUser = Liveness3DUser(
             appKey: appKey, 
-            environment: .PRD
+            environment: .HML
         )
         
         // Passo 02
-        let liveness3DViewController = Liveness3DViewController(liveness3DUser: liveness3DUser)
-    
-        // Passo 03
-        liveness3DViewController.delegate = self
+        let liveness3DViewController = Liveness3DViewController(
+            liveness3DUser: liveness3DUser,
+            delegate: self
+        )
         
-        // Passo 05
+        // Passo 04
         liveness3DViewController.modalPresentationStyle = .fullScreen
         present(liveness3DViewController, animated: true)
     }
@@ -89,8 +82,9 @@ class ViewController: UIViewController {
 ```
 
 ```swift
-// Passo 04
+// Passo 03
 extension ViewController: Liveness3DDelegate {
+
     func handleLiveness3DValidation(validateModel: Liveness3DSuccess) {
         // Seu código ...
     }
@@ -117,28 +111,37 @@ public struct Liveness3DSuccess {
 }
 ```
 
->⚠️ Para mais detalhes sobre as propriedades no objeto de retorno, [clique aqui](https://certifaceid.readme.io/docs/integra%C3%A7%C3%A3o-atualizada#42-3d-liveness).
-
 <br/>
 
 ### Erro
 
 Para tratar o caso de erro, o método `handleLiveness3DError(error:)` deve recebe um objeto do tipo `Liveness3DError`, onde os atributos abaixo podem ser avaliados:
 
-- **errorCode**: *enum* do tipo `Liveness3DErrorCode`, que indica o erro capturado.
-- **errorMessage**: texto que contém uma mensagem explicativa sobre o erro.
+- **code**: valor do tipo inteiro, que indica o erro capturado.
+- **type**: _enum_ do tipo `Liveness3DErrorCode`, que indica o erro capturado.
+- **message**: texto que contém uma mensagem explicativa sobre o erro.
 
 ```swift
 public struct Liveness3DError {
-    public let errorCode: Liveness3DErrorCode
-    public let errorMessage: String
+    public let code: Int
+    public let type: Liveness3DErrorCode
+    public let message: String
 }
 
 public enum Liveness3DErrorCode: String {
-    case INVALID_APP_KEY = "App Key inválido."
-    case NO_CAMERA_PERMISSION = "Não foi concedida permissão de acesso à câmera do aparelho."
-    case NO_INTERNET_CONNECTION = "Sem conexão à Internet."
-    case LIVENESS_NOT_COMPLETED = "Prova de vida não foi completada."
-    case LIVENESS_NOT_INITIALIZED = "Liveness não foi inicializado corretamente."
+    // App Key inválido.
+    case invalidAppKey = 0
+    
+    // Não foi concedida permissão de acesso à câmera do aparelho.
+    case noCameraPermission = 1
+    
+    // Sem conexão à Internet.
+    case noInternetConnection = 2
+    
+    // Prova de vida não foi completada.
+    case livenessNotCompleted = 3
+    
+    // Liveness não foi inicializado corretamente.
+    case livenessNotInitialized = 4
 }
 ```

@@ -17,8 +17,8 @@ let liveness3DUser = Liveness3DUser(
 )
 ```
 > **Considerações**: <br/>
-> 1. Ambos os temas serão aplicados de acordo com o funcionamento interno do SDK, onde o tema padrão (*defaultTheme*) será utilizado até que haja a necessidade de utilizar o tema para pouco luminosidade (*lowLightTheme*).
-> 2. Todos as propriedades do `Liveness3DTheme` possuem um valor *default*, dessa forma, não é necessário especificar todas as propriedades para exibir a customização.
+> 1. Ambos os temas serão aplicados de acordo com o funcionamento interno do SDK, onde o tema padrão (_defaultTheme_) será utilizado até que haja a necessidade de utilizar o tema para pouco luminosidade (_lowLightTheme_).
+> 2. Todos as propriedades do `Liveness3DTheme` possuem um valor _default_, dessa forma, não é necessário especificar todas as propriedades para exibir a customização.
 
 <br/>
 
@@ -27,9 +27,9 @@ Abaixo, estão mapeadas as propriedades para customização do `Liveness3DTheme`
 ## Elementos comuns
 
 ### 1. Botão de cancelar
-| **Atributo**                         | **Tipo**             | **Descrição**                                                              |
-| :----------------------------------- | :------------------- | :------------------------------------------------------------------------- |
-| cancelButtonCustomizationCustomImage | UIImage              | Cancela a operação e retorna para view anterior.                           |
+| **Atributo**                         | **Tipo**             | **Descrição**                                    |
+| :----------------------------------- | :------------------- | :----------------------------------------------- |
+| cancelButtonCustomizationCustomImage | UIImage              | Cancela a operação e retorna para view anterior. |
 | cancelButtonCustomizationLocation    | CancelButtonLocation | Enum que determina a posição do botão. Esquerda, direita ou desabilitado. |
 
 ```swift
@@ -44,9 +44,9 @@ public enum CancelButtonLocation: Int {
 | **Atributo**                      | **Tipo**          | **Descrição**                                             |
 | :-------------------------------- | :---------------- | :-------------------------------------------------------- |
 | frameCustomizationBorderWidth     | Int32             | Modifica a largura da borda do frame.                     |
-| frameCustomizationCornerRadius    | Int32             | Modifica o tamanho do arredondamento das bordas do frame. |
 | frameCustomizationBorderColor     | UIColor           | Modifica a cor da borda do frame.                         |
 | frameCustomizationBackgroundColor | UIColor           | Modifica a cor de fundo do frame.                         |
+| frameCustomizationCornerRadius    | Int32             | Modifica o tamanho do arredondamento das bordas do frame. |
 | frameCustomizationShadow          | Liveness3DShadow? | Adiciona uma sombra ao frame.                             |
 
 ```swift
@@ -78,11 +78,11 @@ public struct Liveness3DShadow {
 ### 5. Oval
 | **Atributo**                          | **Tipo** | **Descrição**                                                   |
 | :------------------------------------ | :------- | :-------------------------------------------------------------- |
-| ovalCustomizationStrokeWidth          | Int32    | Modifica a largura da borda da camada oval.                     |
 | ovalCustomizationStrokeColor          | UIColor  | Modifica a cor da borda da camada oval.                         |
-| ovalCustomizationProgressStrokeWidth  | Int32    | Modifica a largura da borda do progresso da camada oval.        |
+| ovalCustomizationStrokeWidth          | Int32    | Modifica a largura da borda da camada oval.                     |
 | ovalCustomizationProgressColor1       | UIColor  | Modifica a cor da borda de progresso da camada oval.            |
 | ovalCustomizationProgressColor2       | UIColor  | Modifica a cor da borda de progresso da camada oval.            |
+| ovalCustomizationProgressStrokeWidth  | Int32    | Modifica a largura da borda do progresso da camada oval.        |
 | ovalCustomizationProgressRadialOffset | Int32    | Modifica o distânciamento da borda de progresso da camada oval. |
 
 ### 6. Guidance
@@ -106,7 +106,7 @@ public struct Liveness3DShadow {
     <img src="../Images/liveness3d_theme_common_1.png" width="432" height="396" />
     <img src="../Images/liveness3d_theme_common_2.png" width="432" height="396" />
     <img src="../Images/liveness3d_theme_common_3.png" width="432" height="396" />
-<div/>
+</div>
 
 ---
 
@@ -126,13 +126,13 @@ public struct Liveness3DShadow {
 
 ### 3. Textos
 
-> **_Observação:_**
-> As propriedades abaixo só serão aplicadas em telas pequenas. 
+| **Atributo**                                       | **Tipo** | **Descrição**                                    |
+| :------------------------------------------------- | :------- | :----------------------------------------------- |
+| readyScreenCustomizationTextBackgroundColor        | UIColor? | Modifica a cor de fundo.                         |
+| readyScreenCustomizationTextBackgroundCornerRadius | Int32    | Modifica o tamanho do arredondamento das bordas. |
 
-| **Atributo**                                | **Tipo** | **Descrição**                                    |
-| :------------------------------------------ | :------- | :----------------------------------------------- |
-| readyScreenCustomizationTextBackgroundColor | UIColor? | Modifica a cor de fundo.                         |
-| readyScreenCustomizationTextBackgroundColor | Int32    | Modifica o tamanho do arredondamento das bordas. |
+> **_Observação:_**
+> As propriedades do **item 3** somente serão aplicadas em telas pequenas. 
 
 <br/>
 <img src="../Images/liveness3d_theme_ready_screen.png" width="432" height="396" />
@@ -144,8 +144,8 @@ public struct Liveness3DShadow {
 ### 1. Textos
 | **Atributo**                         | **Tipo** | **Descrição**                                              |
 | :----------------------------------- | :------- | :--------------------------------------------------------- |
-| resultScreenCustomizationTextColor   | UIColor  | Modifica a cor de fundo quando estiver em primeiro plano.  |
 | resultScreenCustomizationMessageFont | UIFont?  | Adiciona uma fonte customizada para a mensagem de sucesso. |
+| resultScreenCustomizationTextColor   | UIColor  | Modifica a cor de fundo quando estiver em primeiro plano.  |
 
 ### 2. Barra de carregamento
 | **Atributo**                                      | **Tipo** | **Descrição**                                                        |
@@ -155,9 +155,9 @@ public struct Liveness3DShadow {
 | resultScreenCustomizationUploadProgressTrackColor | UIColor  | Modifica a cor da barra de progresso.                                |
 
 ### 3. Animação
-| **Atributo**                                    | **Tipo**             | **Descrição**                                                                |
-| :---------------------------------------------- | :------------------- | :--------------------------------------------------------------------------- |
-| resultScreenCustomizationAnimationRelativeScale | Float                | Determina o escalonamento da animação e da barra de carregamento. O valor mínimo e máximo para essa propriedade são 0.5 e 1.5 respectivamente, ultrapassados esses limites durante a atribuição, o valor será ajustado para o limite mais próximo (0.5 ou 1.5). |
+| **Atributo**                                    | **Tipo**             | **Descrição**                                  |
+| :---------------------------------------------- | :------------------- | :--------------------------------------------- |
+| resultScreenCustomizationAnimationRelativeScale | Float                | Determina o escalonamento da animação e da barra de carregamento. O valor mínimo e máximo para essa propriedade são **0.5** e **1.5** respectivamente, ultrapassados esses limites durante a atribuição, o valor será ajustado para o limite mais próximo (_0.5_ ou _1.5_). |
 | resultScreenCustomizationAnimationStyle         | ResultAnimationStyle | Determina o tipo de animação será utilizada juntamente com sua customização. |
 
 ```swift
@@ -173,11 +173,11 @@ public enum ResultAnimationStyle {
 <div>
     <img src="../Images/liveness3d_theme_result_screen_1.png" width="432" height="396" />
     <img src="../Images/liveness3d_theme_result_screen_2.png" width="432" height="396" />
-<div/>
+</div>
 
 ---
 
-## Tela de tente novamente
+## Tela de retentativa
 
 ### 1. Header
 | **Atributo**                            | **Tipo** | **Descrição**                                             |
@@ -222,8 +222,8 @@ theme.resultScreenCustomizationAnimationStyle = .custom(delegate: animationDeleg
 
 <br>
 
-| **Descrição**            | **Animação**                                                   | **Customização**                                                                                   |
-| :----------------------- | :------------------------------------------------------------- | :------------------------------------------------------------------------------------------------- |
+| **Descrição**            | **Animação** | **Customização** |
+| :----------------------- | :----------- | :--------------- |
 | Exemplo da <br> Animação | <img src="../Images/blob_loading.gif" width="195" height="422" /> | A customização da animação de Blob é feita através do<br>objeto do tipo `BlobAnimationAppearance`. |
 
 <br>
@@ -256,7 +256,45 @@ theme.resultScreenCustomizationAnimationStyle = .blob(appearance: customAppearan
     <img src="../Images/blob_customization_2.png" width="432" height="396" />
 </div>
 
-***
+---
+<br/>
+
+### **Spinner Animation**
+<br>
+
+| **Descrição**            | **Animação**                                                         | **Customização**                                                                                         |
+| :----------------------- | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
+| Exemplo da <br> Animação | <img src="../Images/spinner_loading.gif" width="195" height="422" /> | A customização da animação de Spinner é feita através do<br>objeto do tipo `SpinnerAnimationAppearance`. |
+
+### `SpinnerAnimationAppearance`
+| **Indice** | **Propriedade**            | **Tipo** | **Descrição**                                                                   |
+| :--------- | :------------------------- | :------- | :------------------------------------------------------------------------------ |
+| (**1**)    | `spinnerColor`             | UIColor  | Altera a cor do *spinner*                                                       |
+| (**2**)    | `checkmarkForegroundColor` | UIColor  | Altera a cor do *checkmark* ao final<br>da animação de carregamento.            |
+| (**3**)    | `checkmarkBackgroundColor` | UIColor  | Altera a cor do circulo do *checkmark*<br>ao final da animação de carregamento. |
+
+<br>
+
+### Código de customização
+
+```swift
+let customAppearance = SpinnerAnimationAppearance(
+    spinnerColor: .red,
+    checkmarkForegroundColor: .yellow,
+    checkmarkBackgroundColor: .blue
+)
+theme.resultScreenCustomizationAnimationStyle = .spinner(appearance: customAppearance)
+```
+<br>
+
+### Resultado
+
+<div>
+    <img src="../Images/spinner_customization_1.png" width="432" height="396" />
+    <img src="../Images/spinner_customization_2.png" width="432" height="396" />
+</div>
+
+---
 <br>
 
 ### **Image Animation**
@@ -296,45 +334,8 @@ theme.resultScreenCustomizationAnimationStyle = .image(appearance: customAppeara
     <img src="../Images/image_customization_2.png" width="432" height="396" />
 </div>
 
-***
+---
 <br>
-
-### **Spinner Animation**
-<br>
-
-| **Descrição**            | **Animação**                                                         | **Customização**                                                                                         |
-| :----------------------- | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
-| Exemplo da <br> Animação | <img src="../Images/spinner_loading.gif" width="195" height="422" /> | A customização da animação de Spinner é feita através do<br>objeto do tipo `SpinnerAnimationAppearance`. |
-
-### `SpinnerAnimationAppearance`
-| **Indice** | **Propriedade**            | **Tipo** | **Descrição**                                                                   |
-| :--------- | :------------------------- | :------- | :------------------------------------------------------------------------------ |
-| (**1**)    | `spinnerColor`             | UIColor  | Altera a cor do *spinner*                                                       |
-| (**2**)    | `checkmarkForegroundColor` | UIColor  | Altera a cor do *checkmark* ao final<br>da animação de carregamento.            |
-| (**3**)    | `checkmarkBackgroundColor` | UIColor  | Altera a cor do circulo do *checkmark*<br>ao final da animação de carregamento. |
-
-<br>
-
-### Código de customização
-
-```swift
-let customAppearance = SpinnerAnimationAppearance(
-    spinnerColor: .red,
-    checkmarkForegroundColor: .yellow,
-    checkmarkBackgroundColor: .blue
-)
-theme.resultScreenCustomizationAnimationStyle = .spinner(appearance: customAppearance)
-```
-<br>
-
-### Resultado
-
-<div>
-    <img src="../Images/spinner_customization_1.png" width="432" height="396" />
-    <img src="../Images/spinner_customization_2.png" width="432" height="396" />
-</div>
-
-***
 
 ### **Custom Animation**
 <br>
@@ -344,9 +345,9 @@ theme.resultScreenCustomizationAnimationStyle = .spinner(appearance: customAppea
 | Exemplo da <br> Animação | <img src="../Images/custom_loading.gif" width="195" height="422" /> | A animação personalizada é feita através de um<br>objeto que deve estar em conformidade com o<br>protocolo `CustomResultAnimationDelegate`. |
 
 ### `CustomResultAnimationDelegate`
-| **Indice** | **Método**                      | **Tipo de retorno** | **Descrição**                                                        |
-| :--------- | :------------------------------ | :------------------ | :------------------------------------------------------------------- |
-| (**1**)    | `createActivityIndicatorView()` | UIView?             | Altera a cor do *spinner*                                            |
+| **Indice** | **Método**                      | **Tipo de retorno** | **Descrição**             |
+| :--------- | :------------------------------ | :------------------ | :------------------------ |
+| (**1**)    | `createActivityIndicatorView()` | UIView?             | Altera a cor do *spinner* |
 | (**2**)    | `createSuccessAnimationView()`  | UIView?             | Altera a cor do *checkmark* ao final<br>da animação de carregamento. |
 
 <br>
