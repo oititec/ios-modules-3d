@@ -1,7 +1,3 @@
-<p align="center">
- <img src="https://raw.githubusercontent.com/oititec/flutter-liveness3d-bridge/main/Documentation/imgs/OitiHeader.png"/>
-</p>
-
 #  Liveness 3D para iOS
 
 Neste repositório você vai encontrar as documentações sobre o **Liveness 3D** para **iOS**.
