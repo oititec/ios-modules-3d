@@ -1,12 +1,17 @@
-#  Liveness 3D para iOS
+<p align="center">
+ <img src="https://raw.githubusercontent.com/oititec/flutter-liveness3d-bridge/main/Documentation/imgs/OitiHeader.png"/>
+</p>
+
+# Liveness 3D para iOS
 
 Neste repositório você vai encontrar as documentações sobre o **Liveness 3D** para **iOS**.
 
-##  Instalação
+## Instalação
 
-O SDK está disponível via [CocoaPods](https://cocoapods.org/about) *(Forma recomendada)* ou via instalação manual.
+O SDK está disponível via [CocoaPods](https://cocoapods.org/about) _(Forma recomendada)_ ou via instalação manual.
 
-###  CocoaPods
+### CocoaPods
+
 1. Caso você não possua um arquivo `Podfile` no seu projeto, basta executar o comando abaixo na raiz do projeto que um novo arquivo desse será criado:
 
 ```rb
@@ -25,7 +30,7 @@ source 'https://github.com/oititec/ios-artifactory.git'
 pod 'OILiveness3D', '~> x.y.z'
 ```
 
-4. Execute o comando de instalação dos *pods*:
+4. Execute o comando de instalação dos _pods_:
 
 ```rb
 pod install
@@ -33,38 +38,38 @@ pod install
 
 5. Abra o arquivo `.xcworkspace` do seu projeto.
 
-###  Instalação manual
+### Instalação manual
 
 Os XCFramwworks para instalação manual estão disponíveis na pasta [Frameworks](/Frameworks).
 
-##  Como integrar?
+## Como integrar?
 
-###  Permissões de acesso
+### Permissões de acesso
 
 No `Info.plist` do projeto, adicione a descrição de uso de câmera (`Privacy - Camera Usage Description`).
 
 ![Instalação 4](Documentation/Images/info_plist_camera_permission.jpg)
 
-###  Descrição, implementação e customização
+### Descrição, implementação e customização
 
-As instruções de uso, integração, implementação e customização do **Liveness 3D** podem ser acessadas nos links abaixo: 
+As instruções de uso, integração, implementação e customização do **Liveness 3D** podem ser acessadas nos links abaixo:
 
-  - [Descrição e Resultados](Documentation/About/Description.md);
-  - [Guia de Implementação](Documentation/About/Usage.md);
-  - [Guia de Customização: Views](Documentation/Customization/CustomViews.md);
-  - [Guia de Customização: Liveness3DTheme](Documentation/Customization/Liveness3DTheme.md).
-  - [Guia de Customização: Textos](Documentation/Customization/CustomTexts.md).
+- [Descrição e Resultados](Documentation/About/Description.md);
+- [Guia de Implementação](Documentation/About/Usage.md);
+- [Guia de Customização: Views](Documentation/Customization/CustomViews.md);
+- [Guia de Customização: Liveness3DTheme](Documentation/Customization/Liveness3DTheme.md).
+- [Guia de Customização: Textos](Documentation/Customization/CustomTexts.md).
 
-##  Guia de migração
+## Guia de migração
 
 ### Changelog
+
 - As novidades das versões podem ser acessadas [neste link](Documentation/MigrationGuide/Changelog/1.0.0.md).
 
 ### Breaking Changes
+
 - [1.0.0](Documentation/MigrationGuide/BreakingChanges/1.0.0.md) - FaceCaptcha para OILiveness3D
 
 <br/>
 
-> ⚠️ **Importante**
-> <br/>Para conhecer o **Hub de Liveness**: [consulte este link.](https://devcenter.certiface.io/docs/hub-de-liveness)
-> <br/>Para conhecer o **Doc Core**: [consulte este link.](https://devcenter.certiface.io/docs/doc-core)
+> ⚠️ **Importante** > <br/>Para conhecer o **Hub de Liveness**: [consulte este link.](https://devcenter.certiface.io/docs/hub-de-liveness) > <br/>Para conhecer o **Doc Core**: [consulte este link.](https://devcenter.certiface.io/docs/doc-core)
