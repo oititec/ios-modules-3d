@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
     s.vendored_frameworks  = 'Framework/OILiveness3D.xcframework'
   
     s.dependency 'OICommonModules', '~> 1.0.0'
-    s.dependency 'OILiveness3D_FT', '9.6.40'
+    s.dependency 'OILiveness3D_FT', '9.6.45'
   end
