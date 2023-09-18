@@ -9547,665 +9547,665 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Animation\/Delegates\/ResultCustomAnimation.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Animation\/Delegates\/ResultCustomAnimation.swift",
       "kind": "StringLiteral",
       "offset": 207,
       "length": 21,
       "value": "\"OILiveness3D.ResultCustomAnimation\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Views\/Native\/Liveness3DInstructionView.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Views\/Native\/Liveness3DInstructionView.swift",
       "kind": "StringLiteral",
       "offset": 871,
       "length": 23,
       "value": "\"Reconhecimento facial\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Views\/Native\/Liveness3DInstructionView.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Views\/Native\/Liveness3DInstructionView.swift",
       "kind": "StringLiteral",
       "offset": 1112,
       "length": 40,
       "value": "\"Isso garante que você é você mesmo.\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Views\/Native\/Liveness3DInstructionView.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Views\/Native\/Liveness3DInstructionView.swift",
       "kind": "StringLiteral",
       "offset": 1400,
       "length": 36,
       "value": "\"Escolha um ambiente bem iluminado.\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Views\/Native\/Liveness3DInstructionView.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Views\/Native\/Liveness3DInstructionView.swift",
       "kind": "StringLiteral",
       "offset": 1541,
       "length": 55,
       "value": "\"Não use acessórios como  bonés, máscaras e afins.\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Views\/Native\/Liveness3DInstructionView.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Views\/Native\/Liveness3DInstructionView.swift",
       "kind": "StringLiteral",
       "offset": 1735,
       "length": 11,
       "value": "\"Continuar\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Views\/Native\/Liveness3DInstructionView.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Views\/Native\/Liveness3DInstructionView.swift",
       "kind": "FloatLiteral",
       "offset": 2555,
       "length": 4,
       "value": "0.25"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Animation\/Delegates\/ResultSpinnerAnimation.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Animation\/Delegates\/ResultSpinnerAnimation.swift",
       "kind": "StringLiteral",
       "offset": 208,
       "length": 22,
       "value": "\"OILiveness3D.ResultSpinnerAnimation\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Views\/Hybrid\/HybridLiveness3DLoadingViewController.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Views\/Hybrid\/HybridLiveness3DLoadingViewController.swift",
       "kind": "StringLiteral",
       "offset": 203,
       "length": 37,
       "value": "\"OILiveness3D.HybridLiveness3DLoadingViewController\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Animation\/Delegates\/ResultImageAnimation.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Animation\/Delegates\/ResultImageAnimation.swift",
       "kind": "StringLiteral",
       "offset": 206,
       "length": 20,
       "value": "\"OILiveness3D.ResultImageAnimation\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
       "kind": "StringLiteral",
       "offset": 223,
       "length": 15,
       "value": "\"3d_arrow_back\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
       "kind": "StringLiteral",
       "offset": 257,
       "length": 11,
       "value": "\"3d_camera\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
       "kind": "StringLiteral",
       "offset": 286,
       "length": 10,
       "value": "\"3d_close\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
       "kind": "StringLiteral",
       "offset": 325,
       "length": 14,
       "value": "\"3d_checkmark\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
       "kind": "StringLiteral",
       "offset": 367,
       "length": 21,
       "value": "\"3d_instruction_face\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
       "kind": "StringLiteral",
       "offset": 416,
       "length": 21,
       "value": "\"3d_instruction_lamp\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
       "kind": "StringLiteral",
       "offset": 466,
       "length": 22,
       "value": "\"3d_instruction_phone\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
       "kind": "StringLiteral",
       "offset": 510,
       "length": 21,
       "value": "\"3d_arrow_back_light\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
       "kind": "StringLiteral",
       "offset": 552,
       "length": 20,
       "value": "\"3d_arrow_back_dark\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
       "kind": "StringLiteral",
       "offset": 223,
       "length": 15,
       "value": "\"3d_arrow_back\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
       "kind": "StringLiteral",
       "offset": 257,
       "length": 11,
       "value": "\"3d_camera\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
       "kind": "StringLiteral",
       "offset": 286,
       "length": 10,
       "value": "\"3d_close\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
       "kind": "StringLiteral",
       "offset": 325,
       "length": 14,
       "value": "\"3d_checkmark\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
       "kind": "StringLiteral",
       "offset": 367,
       "length": 21,
       "value": "\"3d_instruction_face\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
       "kind": "StringLiteral",
       "offset": 416,
       "length": 21,
       "value": "\"3d_instruction_lamp\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
       "kind": "StringLiteral",
       "offset": 466,
       "length": 22,
       "value": "\"3d_instruction_phone\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
       "kind": "StringLiteral",
       "offset": 510,
       "length": 21,
       "value": "\"3d_arrow_back_light\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Resources\/AssetCatalog.swift",
       "kind": "StringLiteral",
       "offset": 552,
       "length": 20,
       "value": "\"3d_arrow_back_dark\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Views\/Native\/Liveness3DViewCard.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Views\/Native\/Liveness3DViewCard.swift",
       "kind": "IntegerLiteral",
       "offset": 388,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Utils\/FaceTecConfig.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Utils\/FaceTecConfig.swift",
       "kind": "StringLiteral",
       "offset": 319,
       "length": 45,
       "value": "\"https:\/\/api.facetec.com\/api\/v3.1\/biometrics\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Utils\/FaceTecConfig.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Utils\/FaceTecConfig.swift",
       "kind": "StringLiteral",
       "offset": 402,
       "length": 34,
       "value": "\"dF2CabwQ6OCLFJaV2QqZhP7OUErHv0uz\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Utils\/FaceTecConfig.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Utils\/FaceTecConfig.swift",
       "kind": "StringLiteral",
       "offset": 486,
       "length": 30,
       "value": "\"-----BEGIN PUBLIC KEY-----\n\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Utils\/FaceTecConfig.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Utils\/FaceTecConfig.swift",
       "kind": "StringLiteral",
       "offset": 523,
       "length": 68,
       "value": "\"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5PxZ3DLj+zP6T6HFgzzk\n\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Utils\/FaceTecConfig.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Utils\/FaceTecConfig.swift",
       "kind": "StringLiteral",
       "offset": 598,
       "length": 68,
       "value": "\"M77LdzP3fojBoLasw7EfzvLMnJNUlyRb5m8e5QyyJxI+wRjsALHvFgLzGwxM8ehz\n\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Utils\/FaceTecConfig.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Utils\/FaceTecConfig.swift",
       "kind": "StringLiteral",
       "offset": 673,
       "length": 68,
       "value": "\"DqqBZed+f4w33GgQXFZOS4AOvyPbALgCYoLehigLAbbCNTkeY5RDcmmSI\/sbp+s6\n\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Utils\/FaceTecConfig.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Utils\/FaceTecConfig.swift",
       "kind": "StringLiteral",
       "offset": 748,
       "length": 68,
       "value": "\"mAiAKKvCdIqe17bltZ\/rfEoL3gPKEfLXeN549LTj3XBp0hvG4loQ6eC1E1tRzSkf\n\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Utils\/FaceTecConfig.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Utils\/FaceTecConfig.swift",
       "kind": "StringLiteral",
       "offset": 823,
       "length": 68,
       "value": "\"GJD4GIVvR+j12gXAaftj3ahfYxioBH7F7HQxzmWkwDyn3bqU54eaiB7f0ftsPpWM\n\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Utils\/FaceTecConfig.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Utils\/FaceTecConfig.swift",
       "kind": "StringLiteral",
       "offset": 898,
       "length": 68,
       "value": "\"ceUaqkL2DZUvgN0efEJjnWy5y1\/Gkq5GGWCROI9XG\/SwXJ30BbVUehTbVcD70+ZF\n\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Utils\/FaceTecConfig.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Utils\/FaceTecConfig.swift",
       "kind": "StringLiteral",
       "offset": 973,
       "length": 12,
       "value": "\"8QIDAQAB\n\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Utils\/FaceTecConfig.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Utils\/FaceTecConfig.swift",
       "kind": "StringLiteral",
       "offset": 992,
       "length": 26,
       "value": "\"-----END PUBLIC KEY-----\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Utils\/Liveness3DProcessor.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Utils\/Liveness3DProcessor.swift",
       "kind": "StringLiteral",
       "offset": 199,
       "length": 19,
       "value": "\"OILiveness3D.Liveness3DProcessor\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Utils\/String+ConsumerKey.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Utils\/String+ConsumerKey.swift",
       "kind": "StringLiteral",
       "offset": 212,
       "length": 26,
       "value": "\"ixqZU8RhEpaoJ6v4xHgE1w==\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
       "kind": "IntegerLiteral",
       "offset": 273,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
       "kind": "IntegerLiteral",
       "offset": 381,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
       "kind": "IntegerLiteral",
       "offset": 453,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
       "kind": "IntegerLiteral",
       "offset": 534,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
       "kind": "IntegerLiteral",
       "offset": 627,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
       "kind": "IntegerLiteral",
       "offset": 273,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
       "kind": "IntegerLiteral",
       "offset": 381,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
       "kind": "IntegerLiteral",
       "offset": 453,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
       "kind": "IntegerLiteral",
       "offset": 534,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
       "kind": "IntegerLiteral",
       "offset": 627,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
       "kind": "IntegerLiteral",
       "offset": 273,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
       "kind": "IntegerLiteral",
       "offset": 381,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
       "kind": "IntegerLiteral",
       "offset": 453,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
       "kind": "IntegerLiteral",
       "offset": 534,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Enums\/Liveness3DErrorCode.swift",
       "kind": "IntegerLiteral",
       "offset": 627,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Views\/Coordinator\/Liveness3DViewController.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Views\/Coordinator\/Liveness3DViewController.swift",
       "kind": "StringLiteral",
       "offset": 215,
       "length": 24,
       "value": "\"OILiveness3D.Liveness3DViewController\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Views\/Coordinator\/Liveness3DViewController.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Views\/Coordinator\/Liveness3DViewController.swift",
       "kind": "StringLiteral",
       "offset": 215,
       "length": 24,
       "value": "\"OILiveness3D.Liveness3DViewController\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Views\/Coordinator\/Liveness3DViewController.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Views\/Coordinator\/Liveness3DViewController.swift",
       "kind": "StringLiteral",
       "offset": 215,
       "length": 24,
       "value": "\"OILiveness3D.Liveness3DViewController\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 314,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 317,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 327,
       "length": 8,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 314,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 317,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 327,
       "length": 8,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 314,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 317,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 327,
       "length": 8,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 401,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 404,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 401,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 404,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 401,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 404,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 2759,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "BooleanLiteral",
       "offset": 3067,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "FloatLiteral",
       "offset": 3377,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 4331,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 4399,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 5632,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 5698,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 5787,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 5966,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 6210,
       "length": 2,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 6466,
       "length": 2,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 6531,
       "length": 2,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "BooleanLiteral",
       "offset": 6754,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Models\/Structs\/Liveness3DTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 6853,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Animation\/Views\/PseudoFullscreenSuccessView.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Animation\/Views\/PseudoFullscreenSuccessView.swift",
       "kind": "StringLiteral",
       "offset": 213,
       "length": 27,
       "value": "\"OILiveness3D.PseudoFullscreenSuccessView\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Animation\/Delegates\/ResultBlobAnimation.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Animation\/Delegates\/ResultBlobAnimation.swift",
       "kind": "StringLiteral",
       "offset": 205,
       "length": 19,
       "value": "\"OILiveness3D.ResultBlobAnimation\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Utils\/FaceTecTexts.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Utils\/FaceTecTexts.swift",
       "kind": "Dictionary",
       "offset": 221,
       "length": 2502,
       "value": "[(\"FaceTec_instructions_header_ready_1\", \"Vamos\"), (\"FaceTec_instructions_header_ready_2\", \"começar!\"), (\"FaceTec_instructions_message_ready_1\", \"Posicione seu rosto na moldura,\"), (\"FaceTec_instructions_message_ready_2\", \"se aproxime e toque em começar.\"), (\"FaceTec_action_im_ready\", \"Começar\"), (\"FaceTec_retry_header\", \"Vamos tentar novamente?\"), (\"FaceTec_retry_subheader_message\", \"Siga o exemplo de foto ideal abaixo:\"), (\"FaceTec_retry_instruction_message_1\", \"Não sorria\"), (\"FaceTec_retry_instruction_message_2\", \"Evite reflexos e iluminação extrema\"), (\"FaceTec_retry_instruction_message_3\", \"Precisamos de uma foto nítida\"), (\"FaceTec_retry_your_image_label\", \"Sua foto\"), (\"FaceTec_retry_ideal_image_label\", \"Foto ideal\"), (\"FaceTec_action_try_again\", \"Tentar novamente\"), (\"FaceTec_result_facescan_upload_message\", \"Enviando\"), (\"FaceTec_result_success_message\", \"Tudo certo!\"), (\"FaceTec_feedback_center_face\", \"Centralize seu rosto\"), (\"FaceTec_feedback_face_not_found\", \"Posicione seu rosto\"), (\"FaceTec_feedback_face_not_looking_straight_ahead\", \"Olhe para frente\"), (\"FaceTec_feedback_face_not_upright\", \"Mantenha a cabeça reta\"), (\"FaceTec_feedback_hold_steady\", \"Segure firme\"), (\"FaceTec_feedback_move_phone_away\", \"Afaste-se\"), (\"FaceTec_feedback_move_phone_closer\", \"Aproxime-se\"), (\"FaceTec_feedback_move_phone_to_eye_level\", \"Mantenha o telefone ao nível dos olhos\"), (\"FaceTec_feedback_use_even_lighting\", \"Encontre um ambiente iluminado\"), (\"FaceTec_presession_frame_your_face\", \"Vamos começar\"), (\"FaceTec_presession_position_face_straight_in_oval\", \"Olhe para frente\"), (\"FaceTec_presession_hold_steady_3\", \"Segure firme por: 3\"), (\"FaceTec_presession_hold_steady_2\", \"Segure firme por: 2\"), (\"FaceTec_presession_hold_steady_1\", \"Segure firme por: 1\"), (\"FaceTec_presession_remove_dark_glasses\", \"Remova seus óculos escuros\"), (\"FaceTec_presession_neutral_expression\", \"Olhe para a câmera sem sorrir\"), (\"FaceTec_presession_conditions_too_bright\", \"Evite um ambiente muito iluminado\"), (\"FaceTec_presession_brighten_your_environment\", \"Encontre um ambiente bem iluminado\")]"
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Views\/Native\/Liveness3DInstructionViewController.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Views\/Native\/Liveness3DInstructionViewController.swift",
       "kind": "StringLiteral",
       "offset": 193,
       "length": 35,
       "value": "\"OILiveness3D.Liveness3DInstructionViewController\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Animation\/Views\/PseudoFullscreenActivityIndicatorView.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Animation\/Views\/PseudoFullscreenActivityIndicatorView.swift",
       "kind": "StringLiteral",
       "offset": 223,
       "length": 37,
       "value": "\"OILiveness3D.PseudoFullscreenActivityIndicatorView\""
     },
     {
-      "filePath": "\/Users\/gleds\/Codes\/Oiti\/Modules\/ios-liveness-3d\/Framework\/OILiveness3D\/Animation\/Views\/PseudoFullscreenUnsuccessView.swift",
+      "filePath": "\/Users\/filipemarques\/oiti\/ios-liveness-3d\/Framework\/OILiveness3D\/Animation\/Views\/PseudoFullscreenUnsuccessView.swift",
       "kind": "StringLiteral",
       "offset": 215,
       "length": 29,
