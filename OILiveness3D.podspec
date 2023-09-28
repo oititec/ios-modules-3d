@@ -10,6 +10,8 @@ Pod::Spec.new do |s|
     s.source          = { :git => 'https://github.com/oititec/ios-modules-3d.git', :tag => s.version.to_s }
     s.vendored_frameworks  = 'Framework/OILiveness3D.xcframework'
   
-    s.dependency 'OICommonModules', '~> 1.0.0'
+    s.dependency 'OICommons', '~> 1.1'
+    s.dependency 'OINetwork', '~> 1.2'
+    s.dependency 'OIComponents', '~> 1.3'
     s.dependency 'OILiveness3D_FT', '9.6.52'
   end
