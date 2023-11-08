@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		B+dIsxQgtC4nrNIW0sRn40RoicI=
+		n1XR0NLRtBb34aUfEeMiPz6J+Ss=
 		</data>
 		<key>Headers/OILiveness3D-Swift.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mpQpErknRj9lTRymkyX1BhszOfA=
+		ZpT9Xb0axS428oyS6pz3SsWoVng=
 		</data>
 		<key>Modules/OILiveness3D.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/OILiveness3D.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		JPgFaHHToq4B3r7QGf2DlLxkzQg=
+		kWhOWO+pryEfzMaxjQPdItaTvfw=
 		</data>
 		<key>Modules/OILiveness3D.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/OILiveness3D.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FJg3aoNiUNw7lLB1Vc9OG9lch7o=
+		uCmkHuu+tfgU5x2MyZbCIVBe7tU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zpixVkrbijAFPfVy4YDpH5m7C+Qz6acG8G5+rms1JxY=
+			1MpThVdwxKXkhGEjrbs6+Yds8qPMzquJBCw8ERndLfw=
 			</data>
 		</dict>
 		<key>Headers/OILiveness3D-Swift.h</key>
@@ -120,7 +120,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QQvbyJjo+0k4/ze4auanlAtIlPNGvXlj/JZZC9FXXls=
+			yXBb19P5ejH5PnAok4z9K9vGGMZY0u17urDKnMy6nZw=
 			</data>
 		</dict>
 		<key>Modules/OILiveness3D.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -155,7 +155,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9/hh8nO4a1CPvXKhtFCUfnNOKU7aF0WZ7guB5mzYM/4=
+			I34lG1gAij7QVu/P6zYM+W/ZQlbwIO5h/KR8UO8ponA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
