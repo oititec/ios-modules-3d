@@ -271,6 +271,7 @@ SWIFT_CLASS("_TtC12OILiveness3D30HybridLiveness3DViewController")
 
 
 
+
 @class UIGestureRecognizer;
 
 @interface Liveness3DViewController (SWIFT_EXTENSION(OILiveness3D)) <UIGestureRecognizerDelegate>
