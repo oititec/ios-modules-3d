@@ -279,6 +279,7 @@ SWIFT_CLASS("_TtC12OILiveness3D30HybridLiveness3DViewController")
 @end
 
 
+
 #endif
 #if defined(__cplusplus)
 #endif

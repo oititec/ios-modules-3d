@@ -279,6 +279,7 @@ SWIFT_CLASS("_TtC12OILiveness3D30HybridLiveness3DViewController")
 @end
 
 
+
 #endif
 #if defined(__cplusplus)
 #endif
@@ -566,6 +567,7 @@ SWIFT_CLASS("_TtC12OILiveness3D30HybridLiveness3DViewController")
 @interface Liveness3DViewController (SWIFT_EXTENSION(OILiveness3D)) <UIGestureRecognizerDelegate>
 - (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer * _Nonnull)gestureRecognizer SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 #endif
