@@ -8,6 +8,7 @@ import OICommons
 import OIComponents
 @_exported import OILiveness3D
 import OINetwork
+import OISecurity
 import Swift
 import UIKit.UIButton
 import UIKit.UIImage
@@ -49,7 +50,7 @@ public protocol CustomCameraPermissionView : OIComponents.CustomCameraPermission
   override func showBottomSheet(visibility: OILiveness3D.Visibility)
 }
 public struct Liveness3DUser {
-  public init(appKey: Swift.String, environment: OILiveness3D.Environment, defaultTheme: OILiveness3D.Liveness3DTheme? = nil, lowLightTheme: OILiveness3D.Liveness3DTheme? = nil, texts: [OILiveness3D.Liveness3DTextKey : Swift.String]? = nil)
+  public init(appKey: Swift.String, ticket: Swift.String? = nil, environment: OILiveness3D.Environment, defaultTheme: OILiveness3D.Liveness3DTheme? = nil, lowLightTheme: OILiveness3D.Liveness3DTheme? = nil, texts: [OILiveness3D.Liveness3DTextKey : Swift.String]? = nil)
 }
 public struct BlobAnimationAppearance {
   public init(blobColor: UIKit.UIColor, checkmarkForegroundColor: UIKit.UIColor, checkmarkBackgroundColor: UIKit.UIColor)
@@ -85,6 +86,13 @@ extension OILiveness3D.Liveness3DViewController : UIKit.UIGestureRecognizerDeleg
 extension OILiveness3D.Liveness3DViewController : OIComponents.CheckCameraPermissionDelegate {
   @_Concurrency.MainActor(unsafe) public func checkCameraPermission(continueFrom cameraPermissionVC: UIKit.UIViewController)
   @_Concurrency.MainActor(unsafe) public func checkCameraPermission(close cameraPermissionVC: UIKit.UIViewController)
+}
+extension OILiveness3D.Liveness3DViewController : OIComponents.CheckCameraPermissionTrackerDelegate {
+  @_Concurrency.MainActor(unsafe) public func trackViewDidAppear()
+  @_Concurrency.MainActor(unsafe) public func trackGoBackAction()
+  @_Concurrency.MainActor(unsafe) public func trackCheckPermissionAction()
+  @_Concurrency.MainActor(unsafe) public func trackGoToSettingsAction()
+  @_Concurrency.MainActor(unsafe) public func trackCloseAction()
 }
 public struct Liveness3DTheme {
   public enum CancelButtonLocation : Swift.Int {
