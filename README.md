@@ -15,7 +15,7 @@ Visite o sumário abaixo e conheça sobre as documentações de uso e integraç�
 
 --- 
 
-Neste repositório encontre também release notes dos módulos **FaceCaptcha** e **Documentoscopia**.
+Neste repositório encontre também release notes do módulo **Liveness3D**.
 
 ### Changelog
 
