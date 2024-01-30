@@ -1,77 +1,32 @@
-<p align="center">
- <img src="Documentation/Images/OitiHeader.png"/>
+<p style="align: center;">
+  <img src="Documentation/Images/OitiHeader.png"/>
 </p>
 
-# Liveness 3D para iOS
+# Oiti - Liveness 3D iOS
 
-Neste repositório você vai encontrar as documentações sobre o **Liveness 3D** para **iOS**.
+Visite o sumário abaixo e conheça sobre as documentações de uso e integração, customização e releases notes do Liveness 3D para iOS.
 
-## Instalação
+**Simplificamos nossos guias de integração e de customização do nosso SDK iOS:**
 
-O SDK está disponível via [CocoaPods](https://cocoapods.org/about) _(Forma recomendada)_ ou via instalação manual.
+- [Guias de Instalação](https://devcenter.certiface.io/docs/guia-de-instalacao-ios)
+- [Guia de Uso e Integração](https://devcenter.certiface.io/docs/guia-de-uso-e-integracao-ios)
+- [Guia de Tratamento de Retornos](https://devcenter.certiface.io/docs/guia-de-tratamento-de-retorno-ios)
+- [Guia de Customização](https://devcenter.certiface.io/docs/customiza%C3%A7%C3%A3o-ios)
 
-### CocoaPods
+--- 
 
-1. Caso você não possua um arquivo `Podfile` no seu projeto, basta executar o comando abaixo na raiz do projeto que um novo arquivo desse será criado:
-
-```rb
-pod init
-```
-
-2. No início do `Podfile`, inclua a linha abaixo:
-
-```rb
-source 'https://github.com/oititec/ios-artifactory.git'
-```
-
-3. Em seguida, adicione a dependência a seguir:
-
-```rb
-pod 'OILiveness3D', '~> x.y.z'
-```
-
-4. Execute o comando de instalação dos _pods_:
-
-```rb
-pod install
-```
-
-5. Abra o arquivo `.xcworkspace` do seu projeto.
-
-### Instalação manual
-
-Os XCFramwworks para instalação manual estão disponíveis na pasta [Frameworks](/Frameworks).
-
-## Como integrar?
-
-### Permissões de acesso
-
-No `Info.plist` do projeto, adicione a descrição de uso de câmera (`Privacy - Camera Usage Description`).
-
-![Instalação 4](Documentation/Images/info_plist_camera_permission.jpg)
-
-### Descrição, implementação e customização
-
-As instruções de uso, integração, implementação e customização do **Liveness 3D** podem ser acessadas nos links abaixo:
-
-- [Descrição e Resultados](Documentation/About/Description.md);
-- [Guia de Implementação](Documentation/About/Usage.md);
-- [Guia de Customização: Views](Documentation/Customization/CustomViews.md);
-- [Guia de Customização: Liveness3DTheme](Documentation/Customization/Liveness3DTheme.md).
-- [Guia de Customização: Textos](Documentation/Customization/CustomTexts.md).
-
-## Guia de migração
+Neste repositório encontre também release notes dos módulos **FaceCaptcha** e **Documentoscopia**.
 
 ### Changelog
 
-- As novidades das versões podem ser acessadas [neste link](Documentation/MigrationGuide/Changelog/1.0.0.md).
+- As novidades das versões podem ser acessadas [neste link](Documentation/Changelog/1.0.0.md).
 
-### Breaking Changes
+--- 
 
-- [1.0.0](Documentation/MigrationGuide/BreakingChanges/1.0.0.md) - FaceCaptcha para OILiveness3D
+### Saiba mais
 
-<br/>
+- Conhecer as **ferramentas de prevenção à fraude** e suas funcionalidades: [consulte este link](https://devcenter.certiface.io/docs/certiface-funcionalidades).
 
-> ⚠️ **Importante** 
-> <br/>Para conhecer o **Hub de Liveness**: [consulte este link.](https://devcenter.certiface.io/docs/hub-de-liveness) 
-> <br/>Para conhecer o **Doc Core**: [consulte este link.](https://devcenter.certiface.io/docs/doc-core)
+- Acessar quadro de **compatibilidade de sistemas e drivers**: [consulte este link](https://devcenter.certiface.io/docs/compatibilidade-dos-servicos).
+
+- Entrar em contato com o **atendimento Oiti**: [consulte este link](https://devcenter.certiface.io/docs/portal-de-atendimento).
