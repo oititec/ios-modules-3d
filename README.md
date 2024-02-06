@@ -19,7 +19,7 @@ Neste repositório encontre também release notes do módulo **Liveness3D**.
 
 ### Changelog
 
-- As novidades das versões podem ser acessadas [neste link](Documentation/Changelog/1.0.0.md).
+- As novidades das versões podem ser acessadas [neste link](Documentation/changelog.md).
 
 --- 
 
