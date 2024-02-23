@@ -69,6 +69,7 @@ public enum Liveness3DErrorCode : Swift.Int, Swift.Error {
   case noInternetConnection
   case livenessNotCompleted
   case livenessNotInitialized
+  case transactionNotCompleted
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
