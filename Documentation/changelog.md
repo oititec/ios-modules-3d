@@ -1,5 +1,11 @@
 # Changelog
 
+## [versão 2.0.0](https://github.com/oititec/ios-modules-3d/releases/tag/2.0.0)
+_data: 23/02/2024_
+
+- **Breaking change**
+  - Adicionado um novo código de erro `transactionNotCompleted`. Esse código substitui a mensagem "Sem conexão com a Internet", quando o SDK capturava quaisquer erros no tratamento do resultado do Liveness (Prova de Vida).
+
 ## [versão 1.1.1](https://github.com/oititec/ios-modules-3d/releases/tag/1.1.1)
 _data: 06/02/2024_
 
