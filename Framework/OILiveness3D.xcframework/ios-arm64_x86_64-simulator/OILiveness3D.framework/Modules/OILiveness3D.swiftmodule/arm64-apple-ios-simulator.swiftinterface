@@ -70,6 +70,7 @@ public enum Liveness3DErrorCode : Swift.Int, Swift.Error {
   case livenessNotCompleted
   case livenessNotInitialized
   case transactionNotCompleted
+  case genericException
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
