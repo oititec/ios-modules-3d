@@ -1,5 +1,11 @@
 # Changelog
 
+## [versão 2.0.1](https://github.com/oititec/ios-modules-3d/releases/tag/2.0.1)
+_data: 21/03/2024_
+
+- **Melhorias**
+  - Adicionado um novo código de erro `genericException` que devolve a mensagem "Erro inesperado, tente novamente", quando o SDK detecta um comportamento fora do esperado.
+
 ## [versão 2.0.0](https://github.com/oititec/ios-modules-3d/releases/tag/2.0.0)
 _data: 23/02/2024_
 
