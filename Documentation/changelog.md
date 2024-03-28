@@ -1,5 +1,11 @@
 # Changelog
 
+## [versão 2.0.2](https://github.com/oititec/ios-modules-3d/releases/tag/2.0.2)
+_data: 28/03/2024_
+
+- **Atualização da FaceTec - [versão 9.6.80](https://github.com/oititec/ios-liveness3d-ft/releases/tag/9.6.80)**
+  - Como parte do lançamento do Xcode 15, a Apple descontinuará o suporte para iOS 11, assim como a FaceTec em um lançamento futuro.
+
 ## [versão 2.0.1](https://github.com/oititec/ios-modules-3d/releases/tag/2.0.1)
 _data: 21/03/2024_
 
