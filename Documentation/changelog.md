@@ -1,5 +1,12 @@
 # Changelog
 
+## [versão 2.1.0](https://github.com/oititec/ios-modules-3d/releases/tag/2.1.0)
+_data: 03/04/2024_
+
+- **Melhorias**
+  - Integração com o `Debug Logger`.
+  - Atualização da versão mínima de suporte para **iOS 12.0**.
+
 ## [versão 2.0.2](https://github.com/oititec/ios-modules-3d/releases/tag/2.0.2)
 _data: 28/03/2024_
 
