@@ -1,5 +1,11 @@
 # Changelog
 
+## [versão 2.1.4](https://github.com/oititec/ios-modules-3d/releases/tag/2.1.4)
+_data: 18/06/2024_
+
+- **Atualização da FaceTec - [versão 9.6.94](https://github.com/oititec/ios-liveness3d-ft/releases/tag/9.6.94)**
+  - Atualização da versão mínima de suporte para o **iOS 12**.
+
 ## [versão 2.1.3](https://github.com/oititec/ios-modules-3d/releases/tag/2.1.3)
 _data: 22/05/2024_
 
