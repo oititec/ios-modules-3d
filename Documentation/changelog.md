@@ -1,5 +1,11 @@
 # Changelog
 
+## [versão 2.1.5](https://github.com/oititec/ios-modules-3d/releases/tag/2.1.5)
+_data: 25/06/2024_
+
+- **Melhorias**
+  - Atualização de dependências.
+
 ## [versão 2.1.4](https://github.com/oititec/ios-modules-3d/releases/tag/2.1.4)
 _data: 18/06/2024_
 
