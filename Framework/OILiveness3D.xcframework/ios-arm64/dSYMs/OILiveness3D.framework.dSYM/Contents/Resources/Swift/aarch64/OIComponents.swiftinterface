@@ -167,6 +167,7 @@ public enum CharacterType : Swift.CaseIterable {
   case punctuation
   case emailSymbol
   case dotSymbol
+  case any
   public static func == (a: OIComponents.CharacterType, b: OIComponents.CharacterType) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public typealias AllCases = [OIComponents.CharacterType]
