@@ -4,7 +4,8 @@
 _data: 23/10/2024_
 
 - **Melhorias**
-    - Integração com o Sentry.
+    - Integração com o Sentry (**OISecurity - 4.0.0**).
+    - Devido a atualização do módulo de **OISecurity** para versão `4.0.0`, o módulo de **OILiveness2D** (_caso esteja implementado_) precisa ser atualizado para versão `2.4.0`.
 
 ## [versão 2.2.0](https://github.com/oititec/ios-modules-3d/releases/tag/2.2.0)
 _data: 24/09/2024_
