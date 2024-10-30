@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name            = 'OILiveness3D'
-    s.version         = '2.3.0'
+    s.version         = '2.4.0'
     s.summary         = 'Framework OILiveness3D para iOS.'
     s.homepage        = 'https://www.oititec.com.br/'
     s.license         = { :type => 'Copyright', :text => 'Copyright © 2024 Oiti. All rights reserved.' }
@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
     s.dependency 'OINetwork', '~> 2.1.1'
     s.dependency 'OIComponents', '~> 1.8'
     s.dependency 'OISecurity', '~> 4.0.0'
-    s.dependency 'OILiveness3D_FT', '9.7.30'
+    s.dependency 'OILiveness3D_FT', '9.7.36'
   end
