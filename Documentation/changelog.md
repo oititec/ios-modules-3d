@@ -1,5 +1,19 @@
 # Changelog
 
+## [versão 2.5.0](https://github.com/oititec/ios-modules-3d/releases/tag/2.5.0)
+_data: 18/12/2024_
+
+- **Atualização da FaceTec - [versão 9.7.43](https://github.com/oititec/ios-liveness3d-ft/releases/tag/9.7.43)**
+  
+  Não há mudanças que causem quebras significativas, exceto a remoção de algumas APIs menores que foram depreciadas.
+  As atualizações da `v9.6.x` para a `v9.7.x` são realizadas exatamente como as atualizações da `v9.6.x`.
+
+  - Melhorias na Taxa de Sucesso e Compatibilidade com Dispositivos.
+  - Melhorias de Desempenho/Velocidade.
+  - Melhorias na Estabilidade e no Gerenciamento de Memória.
+  - Melhorias nas Verificações de Injeção de Vídeo no lado do Dispositivo e no Servidor para mitigar Ameaças de IA Generativa.
+  - Atualização da versão mínima suportada para iOS 12. A Apple agora exige que todos os aplicativos usem o Xcode 15, e o iOS 12 é a nova versão mínima suportada pelo Xcode 15.
+
 ## [versão 2.4.0](https://github.com/oititec/ios-modules-3d/releases/tag/2.4.0)
 _data: 30/10/2024_
 
