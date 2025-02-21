@@ -3,6 +3,7 @@
 ## [versão 2.6.1](https://github.com/oititec/ios-modules-3d/releases/tag/2.6.1)
 
 _data: 21/02/2025_
+
 Não há mudanças que causem quebras significativas, exceto a remoção de algumas APIs menores que foram depreciadas.
 Foi efetuado a remoção do Sentry.
 
