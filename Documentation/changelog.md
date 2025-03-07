@@ -1,8 +1,10 @@
 # Changelog
 
-## [versão 2.7.0](https://github.com/oititec/ios-modules-3d/releases/tag/2.6.1)
+## [versão 2.7.0](https://github.com/oititec/ios-modules-3d/releases/tag/2.7.0)
 
 _data: 07/03/2025_
+
+- **Atualização da FaceTec - [versão 9.7.55](https://github.com/oititec/ios-liveness3d-ft/releases/tag/9.7.55)**
 
 Não há mudanças que causem quebras significativas, exceto a remoção de algumas APIs menores que foram depreciadas.
 As atualizações da `v9.6.x` para a `v9.7.x` são realizadas exatamente como as atualizações da `v9.6.x`.
