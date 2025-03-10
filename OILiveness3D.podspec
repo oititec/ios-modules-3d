@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name            = 'OILiveness3D'
-    s.version         = '2.7.0'
+    s.version         = '2.7.1'
     s.summary         = 'Framework OILiveness3D para iOS.'
     s.homepage        = 'https://www.oititec.com.br/'
     s.license         = { :type => 'Copyright', :text => 'Copyright © 2024 Oiti. All rights reserved.' }
