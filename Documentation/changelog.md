@@ -1,11 +1,5 @@
 # Changelog
 
-## [versão 2.7.1](https://github.com/oititec/ios-modules-3d/releases/tag/2.7.1)
-
-_data: 10/03/2025_
-
-- Adicionado áudios da Facetec em PT-BR.
-
 ## [versão 2.7.0](https://github.com/oititec/ios-modules-3d/releases/tag/2.7.0)
 
 _data: 07/03/2025_
