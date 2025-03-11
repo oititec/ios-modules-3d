@@ -82,11 +82,7 @@
 		</data>
 		<key>Modules/OILiveness3D.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-<<<<<<< HEAD
 		shglggM2lPkCyxRHfNXvGu9PH3w=
-=======
-		1OlQD0RFrAtAhQHss8UoC8kjZiE=
->>>>>>> main
 		</data>
 		<key>Modules/OILiveness3D.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -106,11 +102,7 @@
 		</data>
 		<key>Modules/OILiveness3D.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-<<<<<<< HEAD
 		MPMTkpxs0QyPnWRVzz+shxygPgQ=
-=======
-		zOVintkr5WUHvkF47qM6dMOgh2M=
->>>>>>> main
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -249,11 +241,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< HEAD
 			l0zdX8kKuaMwOl0LR7CKN5qFPoT7nBUk1JBWG8ZfYSw=
-=======
-			IQHIAVfFeWeCiuw5HiiAkyeqNJnq66GQzjPoaVYcv78=
->>>>>>> main
 			</data>
 		</dict>
 		<key>Modules/OILiveness3D.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -288,11 +276,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< HEAD
 			sPm+WsSLvD+LqIUf00OHN+CjUDwhck4AswkqmDea8zo=
-=======
-			FzlEiEVXrLVlH6aVmVG4GwQtzUdkAa++upOXXpQJLOg=
->>>>>>> main
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
