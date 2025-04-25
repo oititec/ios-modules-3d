@@ -98,6 +98,16 @@ extension OILiveness3D.Liveness3DViewController : OIComponents.CheckCameraPermis
   @_Concurrency.MainActor(unsafe) public func trackGoToSettingsAction()
   @_Concurrency.MainActor(unsafe) public func trackCloseAction()
 }
+public enum VocalGuidanceMode : Swift.Int {
+  case noVocalGuidance
+  case minimalVocalGuidance
+  case fullVocalGuidance
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 public struct Liveness3DTheme {
   public enum CancelButtonLocation : Swift.Int {
     case topLeft, topRight, disabled
@@ -116,6 +126,7 @@ public struct Liveness3DTheme {
     }
   }
   public init(_ theme: OILiveness3D.Liveness3DTheme.ThemeType)
+  public var vocalGuidanceMode: OILiveness3D.VocalGuidanceMode
   public var readyScreenCustomizationHeaderFont: UIKit.UIFont?
   public var readyScreenCustomizationHeaderTextColor: UIKit.UIColor
   public var readyScreenCustomizationSubtextFont: UIKit.UIFont?
@@ -216,6 +227,9 @@ public enum Liveness3DTextKey {
 extension OILiveness3D.Liveness3DErrorCode : Swift.Equatable {}
 extension OILiveness3D.Liveness3DErrorCode : Swift.Hashable {}
 extension OILiveness3D.Liveness3DErrorCode : Swift.RawRepresentable {}
+extension OILiveness3D.VocalGuidanceMode : Swift.Equatable {}
+extension OILiveness3D.VocalGuidanceMode : Swift.Hashable {}
+extension OILiveness3D.VocalGuidanceMode : Swift.RawRepresentable {}
 extension OILiveness3D.Liveness3DTheme.CancelButtonLocation : Swift.Equatable {}
 extension OILiveness3D.Liveness3DTheme.CancelButtonLocation : Swift.Hashable {}
 extension OILiveness3D.Liveness3DTheme.CancelButtonLocation : Swift.RawRepresentable {}
