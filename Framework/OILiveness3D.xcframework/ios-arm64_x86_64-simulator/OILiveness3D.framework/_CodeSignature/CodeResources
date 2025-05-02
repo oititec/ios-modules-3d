@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		eheLFM0+GJhGZFQwRHnCC85+VbM=
+		YdXovYd/yHBzTfQw4aVGOb7ZaKE=
 		</data>
 		<key>Headers/OILiveness3D-Swift.h</key>
 		<data>
-		8iq10oD6Qoyo7s6QhTyMX5CuEWo=
+		WirT/YCeOMsZSu+6YpEoaBntVyU=
 		</data>
 		<key>Headers/OILiveness3D.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		u5nsskQrh9FPyVvtibjrz9Jk9hA=
+		K7djbv/NRnAKUeyS0VNPDjGUuXM=
 		</data>
 		<key>Media/Por_favor_pressione_o_botao_para_iniciar.mp3</key>
 		<data>
@@ -66,43 +66,43 @@
 		</data>
 		<key>Modules/OILiveness3D.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		FSPnLbho3G+LL9smI3XgVOqBIQ4=
+		gcwBsH4BgyFY4sVtNt+/xOKS3vY=
 		</data>
 		<key>Modules/OILiveness3D.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ENDR1EKUPJVsueZ+b39b91ssNHw=
+		T6R9He5ZeOsvMfGrz0jgzL9TY4I=
 		</data>
 		<key>Modules/OILiveness3D.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		oVGlEMFl2Vj99DcfwYIFev4dBmE=
+		aj1/pQuRCs2hG45cZNYC1bX4wj8=
 		</data>
 		<key>Modules/OILiveness3D.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ENDR1EKUPJVsueZ+b39b91ssNHw=
+		T6R9He5ZeOsvMfGrz0jgzL9TY4I=
 		</data>
 		<key>Modules/OILiveness3D.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		m3dmn3iNiEpTd0uE1oZ0w6VFHDU=
+		X88abS1XSS2M2X5INlHxZZZcYUY=
 		</data>
 		<key>Modules/OILiveness3D.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		FSPnLbho3G+LL9smI3XgVOqBIQ4=
+		gcwBsH4BgyFY4sVtNt+/xOKS3vY=
 		</data>
 		<key>Modules/OILiveness3D.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		+VtZcQ/i/9fqLBLfBTeGz0CDXZ4=
+		QsGw4v3rcEHOasTQCUX4bV2XDb0=
 		</data>
 		<key>Modules/OILiveness3D.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		zoIeTCcxTz9oPiMZ/M2q2k0Dvfc=
+		jLlX0oo5nqtIw7cioEvnni9WKdk=
 		</data>
 		<key>Modules/OILiveness3D.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+VtZcQ/i/9fqLBLfBTeGz0CDXZ4=
+		QsGw4v3rcEHOasTQCUX4bV2XDb0=
 		</data>
 		<key>Modules/OILiveness3D.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RGR/PKtP21n07H0u0V+gNR0fb00=
+		ICn37rStroha50vLLmBLaIsAdo8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -115,14 +115,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vi6de1fJLxrp3WYs2dGxyNWgzeRCGxERM60o4wd+esc=
+			z4TZAJ18OjfPjIGkqfE7dCfhBDNky5cjBcTRYO0sdhA=
 			</data>
 		</dict>
 		<key>Headers/OILiveness3D-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qQ+gZXSi1Alr2Kex302BCJ8EUkEPY1nHRZ49A/HYsVw=
+			/VGLwK0e73YCTC7Hr4Ae/bEoqsCnv2yivYJw+FPNetI=
 			</data>
 		</dict>
 		<key>Headers/OILiveness3D.h</key>
@@ -213,70 +213,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
+			Qnesa0n4URGWAopawg9bGx36dUwkYV00BoCJ8LFzlyg=
 			</data>
 		</dict>
 		<key>Modules/OILiveness3D.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Au0H9hvX2YEdwEP6SdwJy4A+TIl9re67MCnvR6wbc9s=
+			EkGeYLFqC6+W9XCMhzuEIjfmWpJjlTkgm3jss/N8/pA=
 			</data>
 		</dict>
 		<key>Modules/OILiveness3D.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ktmnsc37yCjZqZT9Aex00pU77H/5N7KEcvFD5BvASW0=
+			GpUt3FD9a6mnfoEdpN5D359B6zGrjLchMnnHVJr+3fM=
 			</data>
 		</dict>
 		<key>Modules/OILiveness3D.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Au0H9hvX2YEdwEP6SdwJy4A+TIl9re67MCnvR6wbc9s=
+			EkGeYLFqC6+W9XCMhzuEIjfmWpJjlTkgm3jss/N8/pA=
 			</data>
 		</dict>
 		<key>Modules/OILiveness3D.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9qv8bhPvqGxkqR1YrXxN4tejEr7jnKiUZwbOvANrF3E=
+			QygsgGgwFTm+5iEf2r3WPOsEX/hTphuZeSjq+BrqjnM=
 			</data>
 		</dict>
 		<key>Modules/OILiveness3D.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
+			Qnesa0n4URGWAopawg9bGx36dUwkYV00BoCJ8LFzlyg=
 			</data>
 		</dict>
 		<key>Modules/OILiveness3D.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h1jbK9bYjUiANZlStvn/797z5inxvqYtMbnDwndPZiY=
+			KCRLfhk3pFcl2F5f30823/TpCpLPghgVfYcxKiUyJ+A=
 			</data>
 		</dict>
 		<key>Modules/OILiveness3D.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A5Qh/AAkL72M+Q3DjnQoKmC2zR5amySsy/Mym7YbjfI=
+			ujhiNy1ju04zQ+Lu6vNRQIfJyDZnaCd7nwsDvtq5+XM=
 			</data>
 		</dict>
 		<key>Modules/OILiveness3D.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h1jbK9bYjUiANZlStvn/797z5inxvqYtMbnDwndPZiY=
+			KCRLfhk3pFcl2F5f30823/TpCpLPghgVfYcxKiUyJ+A=
 			</data>
 		</dict>
 		<key>Modules/OILiveness3D.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ntGQSzkF9mqy6f5KugKRS4Za1mAQ0J63AgKOF/5NwXc=
+			14Bj4r6Omgje6o3zGolc40rLNyhjfjE4lluYsMGbd24=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
