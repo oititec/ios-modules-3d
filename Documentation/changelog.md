@@ -1,5 +1,12 @@
 # Changelog
 
+## [versão 3.0.0](https://github.com/oititec/ios-modules-3d/releases/tag/3.0.0)
+
+_data: 02/05/2025_
+
+- **Melhorias**
+  - Alterado URL de destino de environment do enum `.HML` e `.PRD`.
+
 ## [versão 2.8.0](https://github.com/oititec/ios-modules-3d/releases/tag/2.8.0)
 
 _data: 25/04/2025_
