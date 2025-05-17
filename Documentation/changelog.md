@@ -26,10 +26,8 @@ _data: 02/05/2025_
 
 _data: 25/04/2025_
 
-Não há mudanças que causem quebras significativas, exceto a remoção de algumas APIs menores que foram depreciadas.
-As atualizações da `v9.7.x` para a `v9.8.x` são realizadas exatamente como as atualizações da `v9.7.x`.
-
-- Adicionado áudios em PT-BR e nova propriedade no no builder Liveness3DTheme. `theme.vocalGuidanceMode` com 3 propriedades, `.noVocalGuidance`, `.minimalVocalGuidance` e `.fullVocalGuidance`.
+- **Melhorias**
+  - Adicionado áudios em PT-BR e nova propriedade no no builder Liveness3DTheme. `theme.vocalGuidanceMode` com 3 propriedades, `.noVocalGuidance`, `.minimalVocalGuidance` e `.fullVocalGuidance`.
 
 ## [versão 2.7.0](https://github.com/oititec/ios-modules-3d/releases/tag/2.7.0)
 
