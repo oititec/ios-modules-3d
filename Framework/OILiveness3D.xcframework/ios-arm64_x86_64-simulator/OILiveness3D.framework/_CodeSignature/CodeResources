@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		c9rfQ2J+llNDiVpvntST4/kMmic=
+		bKNpwWWh34Qi0bbvQpMQsOMJbIg=
 		</data>
 		<key>Media/Por_favor_pressione_o_botao_para_iniciar.mp3</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Modules/OILiveness3D.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xI40OokvX0sTUWSGDKOxM5T3EQE=
+		MZdHmnnskL/vkz2kEIR+d5kqMOg=
 		</data>
 		<key>Modules/OILiveness3D.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Modules/OILiveness3D.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wKD0aUx2lomC6rQAYXb5LUhkPJo=
+		bxzDnVOU/gB3yyoIWww04WC8uKk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -241,7 +241,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TFt7gFOJe8+FuMnllClO1qHTRCUYancsRPS58phRQ00=
+			iBY9jcbQqwmnqRjCJYbKgFbfJiJ9JqYGWcyH+/PoTeA=
 			</data>
 		</dict>
 		<key>Modules/OILiveness3D.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -276,7 +276,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+9jXqSq2+Jw78KsCLtkZa2W9VlKQIg8Mce+RXatjELw=
+			7FcNWRXSQ9yoZTEIBFUKqwcGbEgLCxnQu7WsugF0vwo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
