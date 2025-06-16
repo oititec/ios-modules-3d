@@ -1,5 +1,12 @@
 # Changelog
 
+## [versão 3.3.0](https://github.com/oititec/ios-modules-3d/releases/tag/3.3.0)
+
+_data: 16/06/2025_
+
+- **Melhorias**
+  - Remoção de chamada de API em desuso.
+
 ## [versão 3.2.0](https://github.com/oititec/ios-modules-3d/releases/tag/3.2.0)
 
 _data: 23/05/2025_
