@@ -1,5 +1,12 @@
 # Changelog
 
+## [versão 3.5.0](https://github.com/oititec/ios-modules-3d/releases/tag/3.5.0)
+
+_data: 11/08/2025_
+
+- **Melhorias**
+  - Atualização da URL do Certiface em HML.
+
 ## [versão 3.4.0](https://github.com/oititec/ios-modules-3d/releases/tag/3.4.0)
 
 _data: 15/07/2025_
