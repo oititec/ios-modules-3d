@@ -2,7 +2,7 @@
 
 ## [versão 3.11.0](https://github.com/oititec/ios-modules-3d/releases/tag/3.11.0)
 
-_data: 27/12/2025_
+_data: 27/01/2026_
 
 - **Atualização da FaceTec - [versão 9.7.103](https://github.com/oititec/ios-liveness3d-ft/releases/tag/9.7.103)**
 
