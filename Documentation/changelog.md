@@ -1,5 +1,19 @@
 # Changelog
 
+## [versão 3.11.0](https://github.com/oititec/ios-modules-3d/releases/tag/3.11.0)
+
+_data: 27/01/2026_
+
+- **Atualização da FaceTec - [versão 9.7.103](https://github.com/oititec/ios-liveness3d-ft/releases/tag/9.7.103)**
+
+  Não há mudanças que causem quebras significativas, exceto a remoção de algumas APIs menores que foram depreciadas.
+  As atualizações da `v9.6.x` para a `v9.7.x` são realizadas exatamente como as atualizações da `v9.6.x`.
+  - Melhorias na Taxa de Sucesso e Compatibilidade com Dispositivos.
+  - Melhorias de Desempenho/Velocidade.
+  - Melhorias na Estabilidade e no Gerenciamento de Memória.
+  - Melhorias nas Verificações de Injeção de Vídeo no lado do Dispositivo e no Servidor para mitigar Ameaças de IA Generativa.
+  - Atualização da versão mínima suportada para iOS 12. A Apple agora exige que todos os aplicativos usem o Xcode 15, e o iOS 12 é a nova versão mínima suportada pelo Xcode 15.
+
 ## [versão 3.10.0](https://github.com/oititec/ios-modules-3d/releases/tag/3.10.0)
 
 _data: 18/12/2025_
@@ -8,7 +22,6 @@ _data: 18/12/2025_
 
   Não há mudanças que causem quebras significativas, exceto a remoção de algumas APIs menores que foram depreciadas.
   As atualizações da `v9.6.x` para a `v9.7.x` são realizadas exatamente como as atualizações da `v9.6.x`.
-  
   - Melhorias na Taxa de Sucesso e Compatibilidade com Dispositivos.
   - Melhorias de Desempenho/Velocidade.
   - Melhorias na Estabilidade e no Gerenciamento de Memória.
@@ -23,7 +36,6 @@ _data: 18/11/2025_
 
   Não há mudanças que causem quebras significativas, exceto a remoção de algumas APIs menores que foram depreciadas.
   As atualizações da `v9.6.x` para a `v9.7.x` são realizadas exatamente como as atualizações da `v9.6.x`.
-  
   - Melhorias na Taxa de Sucesso e Compatibilidade com Dispositivos.
   - Melhorias de Desempenho/Velocidade.
   - Melhorias na Estabilidade e no Gerenciamento de Memória.
@@ -38,7 +50,6 @@ _data: 02/10/2025_
 
   Não há mudanças que causem quebras significativas, exceto a remoção de algumas APIs menores que foram depreciadas.
   As atualizações da `v9.6.x` para a `v9.7.x` são realizadas exatamente como as atualizações da `v9.6.x`.
-  
   - Melhorias na Taxa de Sucesso e Compatibilidade com Dispositivos.
   - Melhorias de Desempenho/Velocidade.
   - Melhorias na Estabilidade e no Gerenciamento de Memória.
@@ -53,7 +64,6 @@ _data: 29/08/2025_
 
   Não há mudanças que causem quebras significativas, exceto a remoção de algumas APIs menores que foram depreciadas.
   As atualizações da `v9.6.x` para a `v9.7.x` são realizadas exatamente como as atualizações da `v9.6.x`.
-  
   - Melhorias na Taxa de Sucesso e Compatibilidade com Dispositivos.
   - Melhorias de Desempenho/Velocidade.
   - Melhorias na Estabilidade e no Gerenciamento de Memória.
@@ -68,7 +78,6 @@ _data: 14/08/2025_
 
   Não há mudanças que causem quebras significativas, exceto a remoção de algumas APIs menores que foram depreciadas.
   As atualizações da `v9.6.x` para a `v9.7.x` são realizadas exatamente como as atualizações da `v9.6.x`.
-  
   - Melhorias na Taxa de Sucesso e Compatibilidade com Dispositivos.
   - Melhorias de Desempenho/Velocidade.
   - Melhorias na Estabilidade e no Gerenciamento de Memória.
@@ -90,7 +99,6 @@ _data: 15/07/2025_
 
   Não há mudanças que causem quebras significativas, exceto a remoção de algumas APIs menores que foram depreciadas.
   As atualizações da `v9.6.x` para a `v9.7.x` são realizadas exatamente como as atualizações da `v9.6.x`.
-  
   - Melhorias na Taxa de Sucesso e Compatibilidade com Dispositivos.
   - Melhorias de Desempenho/Velocidade.
   - Melhorias na Estabilidade e no Gerenciamento de Memória.
@@ -112,7 +120,6 @@ _data: 23/05/2025_
 
   Não há mudanças que causem quebras significativas, exceto a remoção de algumas APIs menores que foram depreciadas.
   As atualizações da `v9.6.x` para a `v9.7.x` são realizadas exatamente como as atualizações da `v9.6.x`.
-
   - Melhorias na Taxa de Sucesso e Compatibilidade com Dispositivos.
   - Melhorias de Desempenho/Velocidade.
   - Melhorias na Estabilidade e no Gerenciamento de Memória.
@@ -127,7 +134,6 @@ _data: 16/05/2025_
 
   Não há mudanças que causem quebras significativas, exceto a remoção de algumas APIs menores que foram depreciadas.
   As atualizações da `v9.6.x` para a `v9.7.x` são realizadas exatamente como as atualizações da `v9.6.x`.
-
   - Melhorias na Taxa de Sucesso e Compatibilidade com Dispositivos.
   - Melhorias de Desempenho/Velocidade.
   - Melhorias na Estabilidade e no Gerenciamento de Memória.
@@ -156,7 +162,6 @@ _data: 07/03/2025_
 
   Não há mudanças que causem quebras significativas, exceto a remoção de algumas APIs menores que foram depreciadas.
   As atualizações da `v9.6.x` para a `v9.7.x` são realizadas exatamente como as atualizações da `v9.6.x`.
-
   - Melhorias na Taxa de Sucesso e Compatibilidade com Dispositivos.
   - Melhorias de Desempenho/Velocidade.
   - Melhorias na Estabilidade e no Gerenciamento de Memória.
@@ -178,7 +183,6 @@ _data: 31/01/2025_
 
   Não há mudanças que causem quebras significativas, exceto a remoção de algumas APIs menores que foram depreciadas.
   As atualizações da `v9.6.x` para a `v9.7.x` são realizadas exatamente como as atualizações da `v9.6.x`.
-
   - Melhorias na Taxa de Sucesso e Compatibilidade com Dispositivos.
   - Melhorias de Desempenho/Velocidade.
   - Melhorias na Estabilidade e no Gerenciamento de Memória.
@@ -193,7 +197,6 @@ _data: 18/12/2024_
 
   Não há mudanças que causem quebras significativas, exceto a remoção de algumas APIs menores que foram depreciadas.
   As atualizações da `v9.6.x` para a `v9.7.x` são realizadas exatamente como as atualizações da `v9.6.x`.
-
   - Melhorias na Taxa de Sucesso e Compatibilidade com Dispositivos.
   - Melhorias de Desempenho/Velocidade.
   - Melhorias na Estabilidade e no Gerenciamento de Memória.
@@ -208,7 +211,6 @@ _data: 30/10/2024_
 
   Não há mudanças que causem quebras significativas, exceto a remoção de algumas APIs menores que foram depreciadas.
   As atualizações da `v9.6.x` para a `v9.7.x` são realizadas exatamente como as atualizações da `v9.6.x`.
-
   - Melhorias na Taxa de Sucesso e Compatibilidade com Dispositivos.
   - Melhorias de Desempenho/Velocidade.
   - Melhorias na Estabilidade e no Gerenciamento de Memória.
@@ -232,7 +234,6 @@ _data: 24/09/2024_
   Não há mudanças que causem quebras significativas, exceto a remoção de algumas APIs menores que foram depreciadas.
   As atualizações da `v9.6.x` para a `v9.7.x` são realizadas exatamente como as atualizações da `v9.6.x`.
   Consulte o Guia de Atualização da `v9.7` para mais informações.
-
   - Melhorias na Taxa de Sucesso e Compatibilidade com Dispositivos.
   - Melhorias de Desempenho/Velocidade.
   - Melhorias na Estabilidade e no Gerenciamento de Memória.
@@ -413,7 +414,6 @@ _data: 13/07/2023_
 _data: 07/07/2023_
 
 - **Breaking Changes**
-
   - A _struct_ `Liveness3DThemeType` mudou para `Liveness3DTheme.ThemeType`.
   - O parâmetro _delegate_ no inicializador da classe `Liveness3DViewController` não é mais opcional.
   - A assinatura do tipo `LoadingVisibility` mudou para `Visibility`.
