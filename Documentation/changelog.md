@@ -1,5 +1,12 @@
 # Changelog
 
+## [versão 3.11.1](https://github.com/oititec/ios-modules-3d/releases/tag/3.11.1)
+
+_data: 18/02/2026_
+
+- **Melhorias**
+  - Ajustes nos _callbacks_ do Liveness.
+
 ## [versão 3.11.0](https://github.com/oititec/ios-modules-3d/releases/tag/3.11.0)
 
 _data: 27/01/2026_
