@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|  
-  s.name            = 'OILiveness3D'
+  s.name            = 'OILiveness3D-Debug'
   s.version         = '3.14.0'
   s.summary         = 'Framework OILiveness3D para iOS.'
   s.homepage        = 'https://www.oititec.com.br/'
@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.dependency 'OINetwork', '~> 2.1.2'
   s.dependency 'OIComponents', '~> 1.8.0'
   s.dependency 'OISecurity', '~> 4.2'
-  s.dependency 'OILiveness3D_FT/Release', '9.7.112'
+  s.dependency 'OILiveness3D_FT/Debug', '9.7.112'
 end
