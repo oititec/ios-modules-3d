@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name OILiveness3D
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name OILiveness3D
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import AVFoundation
 import DeveloperToolsSupport
 import Foundation
@@ -21,7 +21,9 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 public struct ImageAnimationAppearance {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(image: UIKit.UIImage?, rotationInterval: Swift.Int32, checkmarkForegroundColor: UIKit.UIColor, checkmarkBackgroundColor: UIKit.UIColor)
+  #endif
 }
 public struct Liveness3DError {
   public let code: Swift.Int
@@ -32,13 +34,21 @@ public struct Liveness3DShadow {
   public init(color: UIKit.UIColor, opacity: Swift.Float, radius: Swift.Float, offset: CoreFoundation.CGSize, insets: UIKit.UIEdgeInsets)
 }
 public protocol Liveness3DCustomInstructionView : UIKit.UIView {
+  #if compiler(>=5.3) && $NonescapableTypes
   var backButton: UIKit.UIButton! { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var continueButton: UIKit.UIButton! { get }
+  #endif
   func changeLoadingVisibility(to visibility: OILiveness3D.Visibility)
 }
 public protocol CustomResultAnimationDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
   func createActivityIndicatorView() -> UIKit.UIView?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func createSuccessAnimationView() -> UIKit.UIView?
+  #endif
 }
 public enum ResultAnimationStyle {
   case blob(appearance: OILiveness3D.BlobAnimationAppearance)
@@ -53,13 +63,17 @@ public protocol CustomCameraPermissionView : OIComponents.CustomCameraPermission
   override func showBottomSheet(visibility: OILiveness3D.Visibility)
 }
 public struct Liveness3DUser {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(appKey: Swift.String, ticket: Swift.String? = nil, environment: OILiveness3D.Environment, defaultTheme: OILiveness3D.Liveness3DTheme? = nil, lowLightTheme: OILiveness3D.Liveness3DTheme? = nil, texts: [OILiveness3D.Liveness3DTextKey : Swift.String]? = nil)
+  #endif
 }
 public struct BlobAnimationAppearance {
   public init(blobColor: UIKit.UIColor, checkmarkForegroundColor: UIKit.UIColor, checkmarkBackgroundColor: UIKit.UIColor)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class HybridLiveness3DViewController : OILiveness3D.Liveness3DViewController {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(liveness3DUser: OILiveness3D.Liveness3DUser, delegate: any OILiveness3D.Liveness3DDelegate, customAppearance: OIComponents.HybridViewAppearance?)
+  #endif
   @objc deinit
 }
 public protocol Liveness3DDelegate : AnyObject {
@@ -74,7 +88,9 @@ public enum Liveness3DErrorCode : Swift.Int, Swift.Error {
   case livenessNotInitialized
   case transactionNotCompleted
   case genericException
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -82,7 +98,9 @@ public enum Liveness3DErrorCode : Swift.Int, Swift.Error {
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class Liveness3DViewController : UIKit.UINavigationController {
   @_Concurrency.MainActor @preconcurrency weak public var liveness3DDelegate: (any OILiveness3D.Liveness3DDelegate)?
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency convenience public init(liveness3DUser: OILiveness3D.Liveness3DUser, delegate: any OILiveness3D.Liveness3DDelegate, customInstructionView: (any OILiveness3D.Liveness3DCustomInstructionView)? = nil, customPermissionView: (any OILiveness3D.CustomCameraPermissionView)? = nil)
+  #endif
   @objc deinit
 }
 extension OILiveness3D.Liveness3DViewController : UIKit.UIGestureRecognizerDelegate {
@@ -103,7 +121,9 @@ public enum VocalGuidanceMode : Swift.Int {
   case noVocalGuidance
   case minimalVocalGuidance
   case fullVocalGuidance
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -112,7 +132,9 @@ public enum VocalGuidanceMode : Swift.Int {
 public struct Liveness3DTheme {
   public enum CancelButtonLocation : Swift.Int {
     case topLeft, topRight, disabled
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
+    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -120,7 +142,9 @@ public struct Liveness3DTheme {
   }
   public enum ThemeType : Swift.Int {
     case light, dark
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
+    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
