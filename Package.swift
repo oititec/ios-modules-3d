@@ -1,6 +1,8 @@
 // swift-tools-version:5.9
 import PackageDescription
 
+let version = "3.16.1"
+
 let package = Package(
     name: "OILiveness3D",
     platforms: [
@@ -16,7 +18,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/oititec/ios-liveness3d-ft.git",
-            exact: "9.7.130"
+            exact: "9.7.142"
         )
     ],
     targets: [
